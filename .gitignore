@@ -1,0 +1,9 @@
+node_modules
+.npm
+.gg-nodered
+recipes
+artifacts
+Fortifygg*
+*tsbuildinfo
+coverage*
+*backup

@@ -1,0 +1,191 @@
+[
+    {
+        "id": "bbea51ee2d882d6b",
+        "type": "tab",
+        "label": "The most basic flow",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4a6c75a872596c7a",
+        "type": "tab",
+        "label": "Simple HTTP Server",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1253030f30beed7d",
+        "type": "inject",
+        "z": "bbea51ee2d882d6b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "e7c91f22b7111eab"
+            ]
+        ]
+    },
+    {
+        "id": "e7c91f22b7111eab",
+        "type": "debug",
+        "z": "bbea51ee2d882d6b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bcf5a2e8667d994d",
+        "type": "inject",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 140,
+        "wires": [
+            [
+                "0007050016ddb960"
+            ]
+        ]
+    },
+    {
+        "id": "0007050016ddb960",
+        "type": "http request",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/test/massi",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "e5e414eceb6a817e"
+            ]
+        ]
+    },
+    {
+        "id": "50cbc26ce54a4b10",
+        "type": "http in",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "url": "/test/:name",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 300,
+        "wires": [
+            [
+                "4c5de225cf218ba0"
+            ]
+        ]
+    },
+    {
+        "id": "4c5de225cf218ba0",
+        "type": "function",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "func": "msg.payload = JSON.stringify({msg: `Hello from ${msg.req.params.name}`});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "d435a13891ae6812"
+            ]
+        ]
+    },
+    {
+        "id": "d435a13891ae6812",
+        "type": "http response",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "316bfbddaa5db3fb",
+        "type": "debug",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e5e414eceb6a817e",
+        "type": "json",
+        "z": "4a6c75a872596c7a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "316bfbddaa5db3fb"
+            ]
+        ]
+    }
+]

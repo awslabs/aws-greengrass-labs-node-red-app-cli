@@ -1,0 +1,2354 @@
+├─ @aws-crypto/crc32@1.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-crypto-helpers
+│  ├─ publisher: AWS Crypto Tools Team
+│  ├─ email: aws-cryptools@amazon.com
+│  ├─ url: https://docs.aws.amazon.com/aws-crypto-tools/index.html?id=docs_gateway#lang/en_us
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/crc32
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/crc32/LICENSE
+├─ @aws-crypto/ie11-detection@1.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-crypto-helpers
+│  ├─ publisher: AWS Crypto Tools Team
+│  ├─ email: aws-cryptools@amazon.com
+│  ├─ url: https://docs.aws.amazon.com/aws-crypto-tools/index.html?id=docs_gateway#lang/en_us
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/ie11-detection
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/ie11-detection/LICENSE
+├─ @aws-crypto/sha256-browser@1.1.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-crypto-helpers
+│  ├─ publisher: AWS Crypto Tools Team
+│  ├─ email: aws-cryptools@amazon.com
+│  ├─ url: https://docs.aws.amazon.com/aws-crypto-tools/index.html?id=docs_gateway#lang/en_us
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/sha256-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/sha256-browser/LICENSE
+├─ @aws-crypto/sha256-js@1.1.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-crypto-helpers
+│  ├─ publisher: AWS Crypto Tools Team
+│  ├─ email: aws-cryptools@amazon.com
+│  ├─ url: https://docs.aws.amazon.com/aws-crypto-tools/index.html?id=docs_gateway#lang/en_us
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/sha256-js
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/sha256-js/LICENSE
+├─ @aws-crypto/supports-web-crypto@1.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-crypto-helpers
+│  ├─ publisher: AWS Crypto Tools Team
+│  ├─ email: aws-cryptools@amazon.com
+│  ├─ url: https://docs.aws.amazon.com/aws-crypto-tools/index.html?id=docs_gateway#lang/en_us
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/supports-web-crypto
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-crypto/supports-web-crypto/LICENSE
+├─ @aws-sdk/abort-controller@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/abort-controller
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/abort-controller/LICENSE
+├─ @aws-sdk/abort-controller@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/abort-controller
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/abort-controller/LICENSE
+├─ @aws-sdk/chunked-blob-reader-native@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/chunked-blob-reader-native
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/chunked-blob-reader-native/LICENSE
+├─ @aws-sdk/chunked-blob-reader@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/chunked-blob-reader
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/chunked-blob-reader/LICENSE
+├─ @aws-sdk/client-ec2@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/LICENSE
+├─ @aws-sdk/client-greengrassv2@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-greengrassv2
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-greengrassv2/LICENSE
+├─ @aws-sdk/client-iot@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-iot
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-iot/LICENSE
+├─ @aws-sdk/client-s3@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-s3
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-s3/LICENSE
+├─ @aws-sdk/client-sso@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-sso
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-sso/LICENSE
+├─ @aws-sdk/client-sso@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/client-sso
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/client-sso/LICENSE
+├─ @aws-sdk/client-sts@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-sts
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-sts/LICENSE
+├─ @aws-sdk/client-sts@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/client-sts
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/client-sts/LICENSE
+├─ @aws-sdk/config-resolver@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/config-resolver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/config-resolver/LICENSE
+├─ @aws-sdk/config-resolver@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/config-resolver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/config-resolver/LICENSE
+├─ @aws-sdk/credential-provider-env@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-env
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-env/LICENSE
+├─ @aws-sdk/credential-provider-env@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-env
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-env/LICENSE
+├─ @aws-sdk/credential-provider-imds@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-imds
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-imds/LICENSE
+├─ @aws-sdk/credential-provider-imds@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-imds
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-imds/LICENSE
+├─ @aws-sdk/credential-provider-ini@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-ini
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-ini/LICENSE
+├─ @aws-sdk/credential-provider-ini@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-ini
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-ini/LICENSE
+├─ @aws-sdk/credential-provider-node@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-node/LICENSE
+├─ @aws-sdk/credential-provider-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-node/LICENSE
+├─ @aws-sdk/credential-provider-process@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-process
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-process/LICENSE
+├─ @aws-sdk/credential-provider-process@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-process
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-process/LICENSE
+├─ @aws-sdk/credential-provider-sso@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-sso
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-sso/LICENSE
+├─ @aws-sdk/credential-provider-sso@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-sso
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-sso/LICENSE
+├─ @aws-sdk/credential-provider-web-identity@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-web-identity
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE
+├─ @aws-sdk/credential-provider-web-identity@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-web-identity
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE
+├─ @aws-sdk/eventstream-marshaller@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-marshaller
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-marshaller/LICENSE
+├─ @aws-sdk/eventstream-serde-browser@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-browser/LICENSE
+├─ @aws-sdk/eventstream-serde-config-resolver@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-config-resolver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-config-resolver/LICENSE
+├─ @aws-sdk/eventstream-serde-node@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-node/LICENSE
+├─ @aws-sdk/eventstream-serde-universal@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-universal
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/eventstream-serde-universal/LICENSE
+├─ @aws-sdk/fetch-http-handler@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/fetch-http-handler
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/fetch-http-handler/LICENSE
+├─ @aws-sdk/fetch-http-handler@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/fetch-http-handler
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/fetch-http-handler/LICENSE
+├─ @aws-sdk/hash-blob-browser@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-blob-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-blob-browser/LICENSE
+├─ @aws-sdk/hash-node@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-node/LICENSE
+├─ @aws-sdk/hash-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/hash-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/hash-node/LICENSE
+├─ @aws-sdk/hash-stream-node@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-stream-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/hash-stream-node/LICENSE
+├─ @aws-sdk/invalid-dependency@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/invalid-dependency
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/invalid-dependency/LICENSE
+├─ @aws-sdk/invalid-dependency@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/invalid-dependency
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/invalid-dependency/LICENSE
+├─ @aws-sdk/is-array-buffer@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/is-array-buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/is-array-buffer/LICENSE
+├─ @aws-sdk/is-array-buffer@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/is-array-buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/is-array-buffer/LICENSE
+├─ @aws-sdk/lib-storage@3.17.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/lib-storage
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/lib-storage/LICENSE
+├─ @aws-sdk/md5-js@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/md5-js
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/md5-js/LICENSE
+├─ @aws-sdk/middleware-apply-body-checksum@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-apply-body-checksum
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-apply-body-checksum/LICENSE
+├─ @aws-sdk/middleware-bucket-endpoint@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-bucket-endpoint
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-bucket-endpoint/LICENSE
+├─ @aws-sdk/middleware-content-length@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-content-length
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-content-length/LICENSE
+├─ @aws-sdk/middleware-content-length@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-content-length
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-content-length/LICENSE
+├─ @aws-sdk/middleware-expect-continue@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-expect-continue
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-expect-continue/LICENSE
+├─ @aws-sdk/middleware-header-default@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-header-default
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-header-default/LICENSE
+├─ @aws-sdk/middleware-host-header@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-host-header
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-host-header/LICENSE
+├─ @aws-sdk/middleware-host-header@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-host-header
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-host-header/LICENSE
+├─ @aws-sdk/middleware-location-constraint@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-location-constraint
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-location-constraint/LICENSE
+├─ @aws-sdk/middleware-logger@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-logger
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-logger/LICENSE
+├─ @aws-sdk/middleware-logger@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-logger
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-logger/LICENSE
+├─ @aws-sdk/middleware-retry@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-retry
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-retry/LICENSE
+├─ @aws-sdk/middleware-retry@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-retry
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-retry/LICENSE
+├─ @aws-sdk/middleware-sdk-ec2@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-ec2
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-ec2/LICENSE
+├─ @aws-sdk/middleware-sdk-s3@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-s3
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-s3/LICENSE
+├─ @aws-sdk/middleware-sdk-sts@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-sts
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-sdk-sts/LICENSE
+├─ @aws-sdk/middleware-sdk-sts@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-sdk-sts
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-sdk-sts/LICENSE
+├─ @aws-sdk/middleware-serde@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-serde
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-serde/LICENSE
+├─ @aws-sdk/middleware-serde@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-serde
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-serde/LICENSE
+├─ @aws-sdk/middleware-signing@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-signing
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-signing/LICENSE
+├─ @aws-sdk/middleware-signing@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-signing
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-signing/LICENSE
+├─ @aws-sdk/middleware-ssec@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-ssec
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-ssec/LICENSE
+├─ @aws-sdk/middleware-stack@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-stack
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-stack/LICENSE
+├─ @aws-sdk/middleware-stack@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-stack
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-stack/LICENSE
+├─ @aws-sdk/middleware-user-agent@3.16.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-user-agent
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/middleware-user-agent/LICENSE
+├─ @aws-sdk/middleware-user-agent@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-user-agent
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/middleware-user-agent/LICENSE
+├─ @aws-sdk/node-config-provider@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/node-config-provider
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/node-config-provider/LICENSE
+├─ @aws-sdk/node-config-provider@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/node-config-provider
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/node-config-provider/LICENSE
+├─ @aws-sdk/node-http-handler@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/node-http-handler
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/node-http-handler/LICENSE
+├─ @aws-sdk/node-http-handler@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/node-http-handler
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/node-http-handler/LICENSE
+├─ @aws-sdk/property-provider@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/property-provider
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/property-provider/LICENSE
+├─ @aws-sdk/property-provider@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/property-provider
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/property-provider/LICENSE
+├─ @aws-sdk/protocol-http@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/protocol-http
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/protocol-http/LICENSE
+├─ @aws-sdk/protocol-http@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/protocol-http
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/protocol-http/LICENSE
+├─ @aws-sdk/querystring-builder@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/querystring-builder
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/querystring-builder/LICENSE
+├─ @aws-sdk/querystring-builder@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/querystring-builder
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/querystring-builder/LICENSE
+├─ @aws-sdk/querystring-parser@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/querystring-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/querystring-parser/LICENSE
+├─ @aws-sdk/querystring-parser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/querystring-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/querystring-parser/LICENSE
+├─ @aws-sdk/service-error-classification@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/service-error-classification
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/service-error-classification/LICENSE
+├─ @aws-sdk/service-error-classification@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/service-error-classification
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/service-error-classification/LICENSE
+├─ @aws-sdk/shared-ini-file-loader@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/shared-ini-file-loader
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/shared-ini-file-loader/LICENSE
+├─ @aws-sdk/shared-ini-file-loader@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/shared-ini-file-loader
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/shared-ini-file-loader/LICENSE
+├─ @aws-sdk/signature-v4@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/signature-v4
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/signature-v4/LICENSE
+├─ @aws-sdk/signature-v4@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/signature-v4
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/signature-v4/LICENSE
+├─ @aws-sdk/smithy-client@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/smithy-client
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/smithy-client/LICENSE
+├─ @aws-sdk/smithy-client@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/smithy-client
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/smithy-client/LICENSE
+├─ @aws-sdk/types@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/types
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/types/LICENSE
+├─ @aws-sdk/types@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/types
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/types/LICENSE
+├─ @aws-sdk/url-parser@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/url-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/url-parser/LICENSE
+├─ @aws-sdk/url-parser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/url-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/url-parser/LICENSE
+├─ @aws-sdk/util-arn-parser@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-arn-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-arn-parser/LICENSE
+├─ @aws-sdk/util-base64-browser@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-base64-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-base64-browser/LICENSE
+├─ @aws-sdk/util-base64-browser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-base64-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-base64-browser/LICENSE
+├─ @aws-sdk/util-base64-node@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-base64-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-base64-node/LICENSE
+├─ @aws-sdk/util-base64-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-base64-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-base64-node/LICENSE
+├─ @aws-sdk/util-body-length-browser@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-body-length-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-body-length-browser/LICENSE
+├─ @aws-sdk/util-body-length-browser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-body-length-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-body-length-browser/LICENSE
+├─ @aws-sdk/util-body-length-node@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-body-length-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-body-length-node/LICENSE
+├─ @aws-sdk/util-body-length-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-body-length-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-body-length-node/LICENSE
+├─ @aws-sdk/util-buffer-from@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-buffer-from
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-buffer-from/LICENSE
+├─ @aws-sdk/util-buffer-from@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-buffer-from
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-buffer-from/LICENSE
+├─ @aws-sdk/util-format-url@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-format-url
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-format-url/LICENSE
+├─ @aws-sdk/util-hex-encoding@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-hex-encoding
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-hex-encoding/LICENSE
+├─ @aws-sdk/util-hex-encoding@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-hex-encoding
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-hex-encoding/LICENSE
+├─ @aws-sdk/util-locate-window@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-locate-window
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-locate-window/LICENSE
+├─ @aws-sdk/util-uri-escape@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-uri-escape
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-uri-escape/LICENSE
+├─ @aws-sdk/util-uri-escape@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-uri-escape
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-uri-escape/LICENSE
+├─ @aws-sdk/util-user-agent-browser@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-user-agent-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-user-agent-browser/LICENSE
+├─ @aws-sdk/util-user-agent-browser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-user-agent-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-user-agent-browser/LICENSE
+├─ @aws-sdk/util-user-agent-node@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-user-agent-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-user-agent-node/LICENSE
+├─ @aws-sdk/util-user-agent-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-user-agent-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-user-agent-node/LICENSE
+├─ @aws-sdk/util-utf8-browser@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-browser/LICENSE
+├─ @aws-sdk/util-utf8-browser@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-utf8-browser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-utf8-browser/LICENSE
+├─ @aws-sdk/util-utf8-node@3.13.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-node/LICENSE
+├─ @aws-sdk/util-utf8-node@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-utf8-node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-utf8-node/LICENSE
+├─ @aws-sdk/util-waiter@3.15.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-waiter
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-waiter/LICENSE
+├─ @aws-sdk/util-waiter@3.18.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-waiter
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/client-ec2/node_modules/@aws-sdk/util-waiter/LICENSE
+├─ @aws-sdk/xml-builder@3.14.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/aws/aws-sdk-js-v3
+│  ├─ publisher: AWS SDK for JavaScript Team
+│  ├─ url: https://aws.amazon.com/javascript/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/xml-builder
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/xml-builder/LICENSE
+├─ @mapbox/node-pre-gyp@1.0.5
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mapbox/node-pre-gyp
+│  ├─ publisher: Dane Springmeyer
+│  ├─ email: dane@mapbox.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@mapbox/node-pre-gyp
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@mapbox/node-pre-gyp/LICENSE
+├─ @samverschueren/stream-to-observable@0.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SamVerschueren/stream-to-observable
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@samverschueren/stream-to-observable
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@samverschueren/stream-to-observable/license
+├─ @types/archiver@5.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/archiver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/archiver/LICENSE
+├─ @types/bcrypt@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/bcrypt
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/bcrypt/LICENSE
+├─ @types/glob@7.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/glob
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/glob/LICENSE
+├─ @types/inquirer@7.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/inquirer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/inquirer/LICENSE
+├─ @types/listr@0.14.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/listr
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/listr/LICENSE
+├─ @types/minimatch@3.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/minimatch
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/minimatch/LICENSE
+├─ @types/node@15.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/node
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/node/LICENSE
+├─ @types/semver@7.3.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/semver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/semver/LICENSE
+├─ @types/through@0.0.30
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/through
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/through/LICENSE
+├─ @types/tmp@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@types/tmp
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@types/tmp/LICENSE
+├─ abbrev@1.1.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/abbrev-js
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/abbrev
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/abbrev/LICENSE
+├─ agent-base@6.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-agent-base
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/agent-base
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/agent-base/README.md
+├─ ansi-escapes@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ansi-escapes
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/ansi-escapes
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/ansi-escapes/license
+├─ ansi-escapes@4.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ansi-escapes
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ansi-escapes
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ansi-escapes/license
+├─ ansi-regex@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/ansi-regex
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/ansi-regex/license
+├─ ansi-regex@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/ansi-regex
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/ansi-regex/license
+├─ ansi-regex@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ansi-regex
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ansi-regex/license
+├─ ansi-styles@2.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/ansi-styles
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/ansi-styles/license
+├─ ansi-styles@3.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/ansi-styles
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/ansi-styles/license
+├─ ansi-styles@4.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ansi-styles
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ansi-styles/license
+├─ any-observable@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/any-observable
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/any-observable
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/any-observable/license
+├─ aproba@1.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/aproba
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/aproba
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/aproba/LICENSE
+├─ archiver-utils@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/archiverjs/archiver-utils
+│  ├─ publisher: Chris Talkington
+│  ├─ url: http://christalkington.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/archiver-utils
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/archiver-utils/LICENSE
+├─ archiver@5.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/archiverjs/node-archiver
+│  ├─ publisher: Chris Talkington
+│  ├─ url: http://christalkington.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/archiver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/archiver/LICENSE
+├─ are-we-there-yet@1.1.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/are-we-there-yet
+│  ├─ publisher: Rebecca Turner
+│  ├─ url: http://re-becca.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/are-we-there-yet
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/are-we-there-yet/LICENSE
+├─ arg@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vercel/arg
+│  ├─ publisher: Josh Junon
+│  ├─ email: junon@wavetilt.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/arg
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/arg/LICENSE.md
+├─ async@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/caolan/async
+│  ├─ publisher: Caolan McMahon
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/async
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/async/LICENSE
+├─ balanced-match@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/balanced-match
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/balanced-match
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/balanced-match/LICENSE.md
+├─ base64-js@1.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/beatgammit/base64-js
+│  ├─ publisher: T. Jameson Little
+│  ├─ email: t.jameson.little@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/base64-js
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/base64-js/LICENSE
+├─ bcrypt@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kelektiv/node.bcrypt.js
+│  ├─ publisher: Nick Campbell
+│  ├─ url: https://github.com/ncb000gt
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/bcrypt
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/bcrypt/LICENSE
+├─ bl@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/bl
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/bl
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/bl/LICENSE.md
+├─ bowser@2.11.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lancedikson/bowser
+│  ├─ publisher: Dustin Diaz
+│  ├─ email: dustin@dustindiaz.com
+│  ├─ url: http://dustindiaz.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/bowser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/bowser/LICENSE
+├─ brace-expansion@1.1.11
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/brace-expansion
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/brace-expansion
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/brace-expansion/LICENSE
+├─ buffer-crc32@0.2.13
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/brianloveswords/buffer-crc32
+│  ├─ publisher: Brian J. Brennan
+│  ├─ email: brianloveswords@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/buffer-crc32
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/buffer-crc32/LICENSE
+├─ buffer@5.7.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/buffer
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/buffer/LICENSE
+├─ chalk@1.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/chalk
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/chalk/license
+├─ chalk@2.4.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/chalk
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/chalk/license
+├─ chalk@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/chalk
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/chalk/license
+├─ chardet@0.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/runk/node-chardet
+│  ├─ publisher: Dmitry Shirokov
+│  ├─ email: deadrunk@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/chardet
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/chardet/LICENSE
+├─ chownr@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/chownr
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/chownr
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/chownr/LICENSE
+├─ cli-cursor@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-cursor
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/cli-cursor
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/cli-cursor/license
+├─ cli-cursor@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-cursor
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/cli-cursor
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/cli-cursor/license
+├─ cli-spinners@2.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-spinners
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/cli-spinners
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/cli-spinners/license
+├─ cli-truncate@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-truncate
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/cli-truncate
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/cli-truncate/license
+├─ cli-width@3.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/knownasilya/cli-width
+│  ├─ publisher: Ilya Radchenko
+│  ├─ email: knownasilya@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/cli-width
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/cli-width/LICENSE
+├─ clone@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pvorb/node-clone
+│  ├─ publisher: Paul Vorbach
+│  ├─ email: paul@vorba.ch
+│  ├─ url: http://paul.vorba.ch/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/clone
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/clone/LICENSE
+├─ code-point-at@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/code-point-at
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/code-point-at
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/code-point-at/license
+├─ color-convert@1.9.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Qix-/color-convert
+│  ├─ publisher: Heather Arthur
+│  ├─ email: fayearthur@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/color-convert
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/color-convert/LICENSE
+├─ color-convert@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Qix-/color-convert
+│  ├─ publisher: Heather Arthur
+│  ├─ email: fayearthur@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/color-convert
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/color-convert/LICENSE
+├─ color-name@1.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dfcreative/color-name
+│  ├─ publisher: DY
+│  ├─ email: dfcreative@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/color-name
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/color-name/LICENSE
+├─ color-name@1.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/colorjs/color-name
+│  ├─ publisher: DY
+│  ├─ email: dfcreative@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/color-name
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/color-name/LICENSE
+├─ commander@7.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/commander.js
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/commander
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/commander/LICENSE
+├─ compress-commons@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/archiverjs/node-compress-commons
+│  ├─ publisher: Chris Talkington
+│  ├─ url: http://christalkington.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/compress-commons
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/compress-commons/LICENSE
+├─ concat-map@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-concat-map
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/concat-map
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/concat-map/LICENSE
+├─ console-control-strings@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/console-control-strings
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ url: http://re-becca.org/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/console-control-strings
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/console-control-strings/LICENSE
+├─ core-util-is@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/core-util-is
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/core-util-is
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/core-util-is/LICENSE
+├─ crc-32@1.2.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/SheetJS/js-crc32
+│  ├─ publisher: sheetjs
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/crc-32
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/crc-32/LICENSE
+├─ crc32-stream@4.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/archiverjs/node-crc32-stream
+│  ├─ publisher: Chris Talkington
+│  ├─ url: http://christalkington.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/crc32-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/crc32-stream/LICENSE
+├─ cross-spawn@7.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/moxystudio/node-cross-spawn
+│  ├─ publisher: André Cruz
+│  ├─ email: andre@moxy.studio
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/cross-spawn
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/cross-spawn/LICENSE
+├─ date-fns@1.30.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/date-fns/date-fns
+│  ├─ publisher: Sasha Koss
+│  ├─ email: koss@nocorp.me
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/date-fns
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/date-fns/LICENSE.md
+├─ debug@4.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/debug
+│  ├─ publisher: TJ Holowaychuk
+│  ├─ email: tj@vision-media.ca
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/debug
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/debug/LICENSE
+├─ defaults@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tmpvar/defaults
+│  ├─ publisher: Elijah Insua
+│  ├─ email: tmpvar@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/defaults
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/defaults/LICENSE
+├─ delegates@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-delegates
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/delegates
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/delegates/License
+├─ detect-libc@1.0.3
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/lovell/detect-libc
+│  ├─ publisher: Lovell Fuller
+│  ├─ email: npm@lovell.info
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/detect-libc
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/detect-libc/LICENSE
+├─ elegant-spinner@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/elegant-spinner
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/elegant-spinner
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/elegant-spinner/license
+├─ emoji-regex@8.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/emoji-regex
+│  ├─ publisher: Mathias Bynens
+│  ├─ url: https://mathiasbynens.be/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/emoji-regex
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/emoji-regex/LICENSE-MIT.txt
+├─ end-of-stream@1.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/end-of-stream
+│  ├─ publisher: Mathias Buus
+│  ├─ email: mathiasbuus@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/end-of-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/end-of-stream/LICENSE
+├─ entities@2.2.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/fb55/entities
+│  ├─ publisher: Felix Boehm
+│  ├─ email: me@feedic.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/entities
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/entities/LICENSE
+├─ escape-string-regexp@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/escape-string-regexp
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/escape-string-regexp
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/escape-string-regexp/license
+├─ execa@5.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/execa
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/execa
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/execa/license
+├─ exit-on-epipe@1.0.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/SheetJS/node-exit-on-epipe
+│  ├─ publisher: sheetjs
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/exit-on-epipe
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/exit-on-epipe/LICENSE
+├─ external-editor@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mrkmg/node-external-editor
+│  ├─ publisher: Kevin Gravier
+│  ├─ email: kevin@mrkmg.com
+│  ├─ url: https://mrkmg.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/external-editor
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/external-editor/LICENSE
+├─ fast-xml-parser@3.19.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/NaturalIntelligence/fast-xml-parser
+│  ├─ publisher: Amit Gupta
+│  ├─ url: https://amitkumargupta.work/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/fast-xml-parser
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/fast-xml-parser/LICENSE
+├─ figures@1.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/figures
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/figures
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/figures/license
+├─ figures@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/figures
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/figures
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/figures/license
+├─ figures@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/figures
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/figures
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/figures/license
+├─ fs-constants@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/fs-constants
+│  ├─ publisher: Mathias Buus
+│  ├─ url: @mafintosh
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/fs-constants
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/fs-constants/LICENSE
+├─ fs-minipass@2.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/fs-minipass
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/fs-minipass
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/fs-minipass/LICENSE
+├─ fs.realpath@1.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/fs.realpath
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/fs.realpath
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/fs.realpath/LICENSE
+├─ gauge@2.7.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/gauge
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/gauge
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/gauge/LICENSE
+├─ get-stream@6.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/get-stream
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/get-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/get-stream/license
+├─ gg-node-red@1.0.0
+│  ├─ licenses: MIT
+│  ├─ publisher: Massimiliano Angelino
+│  ├─ email: angmas@amazon.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/LICENSE
+├─ glob@7.1.7
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/glob
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/glob/LICENSE
+├─ graceful-fs@4.2.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/graceful-fs
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/graceful-fs/LICENSE
+├─ has-ansi@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/has-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/has-ansi/license
+├─ has-flag@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-flag
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/has-flag
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/has-flag/license
+├─ has-flag@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-flag
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/has-flag
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/has-flag/license
+├─ has-unicode@2.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/has-unicode
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/has-unicode
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/has-unicode/LICENSE
+├─ https-proxy-agent@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-https-proxy-agent
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/https-proxy-agent
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/https-proxy-agent/README.md
+├─ human-signals@2.1.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/ehmicky/human-signals
+│  ├─ publisher: ehmicky
+│  ├─ email: ehmicky@gmail.com
+│  ├─ url: https://github.com/ehmicky
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/human-signals
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/human-signals/LICENSE
+├─ iconv-lite@0.4.24
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ashtuchkin/iconv-lite
+│  ├─ publisher: Alexander Shtuchkin
+│  ├─ email: ashtuchkin@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/iconv-lite
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/iconv-lite/LICENSE
+├─ ieee754@1.2.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/feross/ieee754
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ieee754
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ieee754/LICENSE
+├─ indent-string@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/indent-string
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/indent-string
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/indent-string/license
+├─ inflight@1.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/inflight
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/inflight
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/inflight/LICENSE
+├─ inherits@2.0.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/inherits
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/inherits
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/inherits/LICENSE
+├─ inquirer@8.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SBoudrias/Inquirer.js
+│  ├─ publisher: Simon Boudrias
+│  ├─ email: admin@simonboudrias.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/inquirer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/inquirer/LICENSE
+├─ is-fullwidth-code-point@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/is-fullwidth-code-point
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/is-fullwidth-code-point/license
+├─ is-fullwidth-code-point@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/is-fullwidth-code-point
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/is-fullwidth-code-point/license
+├─ is-fullwidth-code-point@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-fullwidth-code-point
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-fullwidth-code-point/license
+├─ is-interactive@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-interactive
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-interactive
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-interactive/license
+├─ is-observable@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-observable
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-observable
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-observable/license
+├─ is-promise@2.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/then/is-promise
+│  ├─ publisher: ForbesLindesay
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-promise
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-promise/LICENSE
+├─ is-stream@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-stream
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-stream/license
+├─ is-stream@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-stream
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/execa/node_modules/is-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/execa/node_modules/is-stream/license
+├─ is-unicode-supported@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-unicode-supported
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/is-unicode-supported
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/is-unicode-supported/license
+├─ isarray@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/isarray
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/isarray
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/isarray/README.md
+├─ isexe@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/isexe
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/isexe
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/isexe/LICENSE
+├─ lazystream@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jpommerening/node-lazystream
+│  ├─ publisher: Jonas Pommerening
+│  ├─ email: jonas.pommerening@gmail.com
+│  ├─ url: https://npmjs.org/~jpommerening
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lazystream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/LICENSE-MIT
+├─ listr-silent-renderer@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SamVerschueren/listr-silent-renderer
+│  ├─ publisher: Sam Verschueren
+│  ├─ email: sam.verschueren@gmail.com
+│  ├─ url: github.com/SamVerschueren
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-silent-renderer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-silent-renderer/license
+├─ listr-update-renderer@0.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SamVerschueren/listr-update-renderer
+│  ├─ publisher: Sam Verschueren
+│  ├─ email: sam.verschueren@gmail.com
+│  ├─ url: github.com/SamVerschueren
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/license
+├─ listr-verbose-renderer@0.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SamVerschueren/listr-verbose-renderer
+│  ├─ publisher: Sam Verschueren
+│  ├─ email: sam.verschueren@gmail.com
+│  ├─ url: github.com/SamVerschueren
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/license
+├─ listr@0.14.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SamVerschueren/listr
+│  ├─ publisher: Sam Verschueren
+│  ├─ email: sam.verschueren@gmail.com
+│  ├─ url: github.com/SamVerschueren
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr/license
+├─ lodash.defaults@4.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash.defaults
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash.defaults/LICENSE
+├─ lodash.difference@4.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash.difference
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash.difference/LICENSE
+├─ lodash.flatten@4.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash.flatten
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash.flatten/LICENSE
+├─ lodash.isplainobject@4.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash.isplainobject
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash.isplainobject/LICENSE
+├─ lodash.union@4.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash.union
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash.union/LICENSE
+├─ lodash@4.17.21
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lodash
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lodash/LICENSE
+├─ log-symbols@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/log-symbols
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: http://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/log-symbols
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/log-symbols/license
+├─ log-symbols@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/log-symbols
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-symbols
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-symbols/license
+├─ log-update@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/log-update
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/license
+├─ lru-cache@6.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lru-cache
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lru-cache/LICENSE
+├─ make-dir@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/make-dir
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/make-dir
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/make-dir/license
+├─ merge-stream@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/grncdr/merge-stream
+│  ├─ publisher: Stephen Sugden
+│  ├─ email: me@stephensugden.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/merge-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/merge-stream/LICENSE
+├─ mimic-fn@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/mimic-fn
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/mimic-fn
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/mimic-fn/license
+├─ mimic-fn@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/mimic-fn
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/mimic-fn
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/mimic-fn/license
+├─ minimatch@3.0.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/minimatch
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/minimatch/LICENSE
+├─ minipass@3.1.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minipass
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/minipass
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/minipass/LICENSE
+├─ minizlib@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/minizlib
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/minizlib
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/minizlib/LICENSE
+├─ mkdirp@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/node-mkdirp
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/mkdirp
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/mkdirp/LICENSE
+├─ ms@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zeit/ms
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ms
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ms/license.md
+├─ mute-stream@0.0.8
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/mute-stream
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/mute-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/mute-stream/LICENSE
+├─ node-addon-api@3.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/node-addon-api
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/node-addon-api
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/node-addon-api/LICENSE.md
+├─ node-fetch@2.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/bitinn/node-fetch
+│  ├─ publisher: David Frank
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/node-fetch
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/node-fetch/LICENSE.md
+├─ nopt@5.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/nopt
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/nopt
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/nopt/LICENSE
+├─ normalize-path@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/normalize-path
+│  ├─ publisher: Jon Schlinkert
+│  ├─ url: https://github.com/jonschlinkert
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/normalize-path
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/normalize-path/LICENSE
+├─ npm-run-path@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/npm-run-path
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/npm-run-path
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/npm-run-path/license
+├─ npmlog@4.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/npmlog
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/npmlog
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/npmlog/LICENSE
+├─ number-is-nan@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/number-is-nan
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/number-is-nan
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/number-is-nan/license
+├─ object-assign@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/object-assign
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/object-assign
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/object-assign/license
+├─ once@1.4.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/once
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/once
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/once/LICENSE
+├─ onetime@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/onetime
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/onetime
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/onetime/license
+├─ onetime@5.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/onetime
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/onetime
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/onetime/license
+├─ ora@5.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ora
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/ora
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/ora/license
+├─ os-tmpdir@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/os-tmpdir
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/os-tmpdir
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/os-tmpdir/license
+├─ p-map@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-map
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/p-map
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/p-map/license
+├─ path-is-absolute@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-is-absolute
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/path-is-absolute
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/path-is-absolute/license
+├─ path-key@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-key
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/path-key
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/path-key/license
+├─ printj@1.1.2
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/SheetJS/printj
+│  ├─ publisher: sheetjs
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/printj
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/printj/LICENSE
+├─ process-nextick-args@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/calvinmetcalf/process-nextick-args
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/process-nextick-args
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/process-nextick-args/license.md
+├─ readable-stream@2.3.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/readable-stream
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/readable-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/readable-stream/LICENSE
+├─ readable-stream@3.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/readable-stream
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/readable-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/readable-stream/LICENSE
+├─ readdir-glob@1.1.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/Yqnn/node-readdir-glob
+│  ├─ publisher: Yann Armelin
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/readdir-glob
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/readdir-glob/LICENSE
+├─ restore-cursor@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/restore-cursor
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/restore-cursor
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/log-update/node_modules/restore-cursor/license
+├─ restore-cursor@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/restore-cursor
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/restore-cursor
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/restore-cursor/license
+├─ rimraf@3.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/rimraf
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/rimraf
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/rimraf/LICENSE
+├─ run-async@2.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SBoudrias/run-async
+│  ├─ publisher: Simon Boudrias
+│  ├─ email: admin@simonboudrias.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/run-async
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/run-async/LICENSE
+├─ rxjs@6.6.7
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/reactivex/rxjs
+│  ├─ publisher: Ben Lesh
+│  ├─ email: ben@benlesh.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/rxjs
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/rxjs/LICENSE.txt
+├─ safe-buffer@5.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/safe-buffer
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: http://feross.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/safe-buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/safe-buffer/LICENSE
+├─ safe-buffer@5.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/safe-buffer
+│  ├─ publisher: Feross Aboukhadijeh
+│  ├─ email: feross@feross.org
+│  ├─ url: https://feross.org
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/safe-buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/safe-buffer/LICENSE
+├─ safer-buffer@2.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ChALkeR/safer-buffer
+│  ├─ publisher: Nikita Skovoroda
+│  ├─ email: chalkerx@gmail.com
+│  ├─ url: https://github.com/ChALkeR
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/safer-buffer
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/safer-buffer/LICENSE
+├─ semver@6.3.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/make-dir/node_modules/semver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/make-dir/node_modules/semver/LICENSE
+├─ semver@7.3.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/semver
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/semver/LICENSE
+├─ set-blocking@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/yargs/set-blocking
+│  ├─ publisher: Ben Coe
+│  ├─ email: ben@npmjs.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/set-blocking
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/set-blocking/LICENSE.txt
+├─ shebang-command@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kevva/shebang-command
+│  ├─ publisher: Kevin Mårtensson
+│  ├─ email: kevinmartensson@gmail.com
+│  ├─ url: github.com/kevva
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/shebang-command
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/shebang-command/license
+├─ shebang-regex@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/shebang-regex
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/shebang-regex
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/shebang-regex/license
+├─ signal-exit@3.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/tapjs/signal-exit
+│  ├─ publisher: Ben Coe
+│  ├─ email: ben@npmjs.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/signal-exit
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/signal-exit/LICENSE.txt
+├─ slice-ansi@0.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/slice-ansi
+│  ├─ publisher: David Caccavella
+│  ├─ email: threedeecee@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/slice-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/slice-ansi/license
+├─ stream-browserify@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/browserify/stream-browserify
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/stream-browserify
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/stream-browserify/LICENSE
+├─ string-width@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/string-width
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/string-width/license
+├─ string-width@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/string-width
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/string-width/license
+├─ string-width@4.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/string-width
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/string-width/license
+├─ string_decoder@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/string_decoder
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/string_decoder
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/lazystream/node_modules/string_decoder/LICENSE
+├─ string_decoder@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/string_decoder
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/string_decoder
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/string_decoder/LICENSE
+├─ strip-ansi@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/strip-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/gauge/node_modules/strip-ansi/license
+├─ strip-ansi@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/strip-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/node_modules/strip-ansi/license
+├─ strip-ansi@6.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/strip-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/strip-ansi/license
+├─ strip-final-newline@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-final-newline
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/strip-final-newline
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/strip-final-newline/license
+├─ supports-color@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/supports-color
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-update-renderer/node_modules/supports-color/license
+├─ supports-color@5.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/supports-color
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/listr-verbose-renderer/node_modules/supports-color/license
+├─ supports-color@7.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/supports-color
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/supports-color/license
+├─ symbol-observable@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blesh/symbol-observable
+│  ├─ publisher: Ben Lesh
+│  ├─ email: ben@benlesh.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/symbol-observable
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/symbol-observable/license
+├─ tar-stream@2.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/tar-stream
+│  ├─ publisher: Mathias Buus
+│  ├─ email: mathiasbuus@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/tar-stream
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/tar-stream/LICENSE
+├─ tar@6.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-tar
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/tar
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/tar/LICENSE
+├─ through@2.3.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/through
+│  ├─ publisher: Dominic Tarr
+│  ├─ email: dominic.tarr@gmail.com
+│  ├─ url: dominictarr.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/through
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/through/LICENSE.APACHE2
+├─ tmp@0.0.33
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/raszi/node-tmp
+│  ├─ publisher: KARASZI István
+│  ├─ email: github@spam.raszi.hu
+│  ├─ url: http://raszi.hu/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/tmp
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/tmp/LICENSE
+├─ tslib@1.14.1
+│  ├─ licenses: 0BSD
+│  ├─ repository: https://github.com/Microsoft/tslib
+│  ├─ publisher: Microsoft Corp.
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/tslib
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/tslib/LICENSE.txt
+├─ tslib@2.2.0
+│  ├─ licenses: 0BSD
+│  ├─ repository: https://github.com/Microsoft/tslib
+│  ├─ publisher: Microsoft Corp.
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-browser/node_modules/tslib
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/@aws-sdk/util-utf8-browser/node_modules/tslib/LICENSE.txt
+├─ type-fest@0.21.3
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/type-fest
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/type-fest/license
+├─ util-deprecate@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/util-deprecate
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/util-deprecate
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/util-deprecate/LICENSE
+├─ uuid@8.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/uuidjs/uuid
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/uuid
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/uuid/LICENSE.md
+├─ wcwidth@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/timoxley/wcwidth
+│  ├─ publisher: Tim Oxley
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wcwidth
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wcwidth/LICENSE
+├─ which@2.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-which
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/which
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/which/LICENSE
+├─ wide-align@1.1.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/wide-align
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ url: http://re-becca.org/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wide-align
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wide-align/LICENSE
+├─ wrap-ansi@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/wrap-ansi
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wrap-ansi
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wrap-ansi/license
+├─ wrappy@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/wrappy
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/wrappy
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/wrappy/LICENSE
+├─ yallist@4.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/yallist
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/yallist
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/yallist/LICENSE
+├─ yaml@1.10.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/eemeli/yaml
+│  ├─ publisher: Eemeli Aro
+│  ├─ email: eemeli@gmail.com
+│  ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/yaml
+│  └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/yaml/LICENSE
+└─ zip-stream@4.1.0
+   ├─ licenses: MIT
+   ├─ repository: https://github.com/archiverjs/node-zip-stream
+   ├─ publisher: Chris Talkington
+   ├─ url: http://christalkington.com/
+   ├─ path: /Users/angmas/Projects/gg-node-red/node_modules/zip-stream
+   └─ licenseFile: /Users/angmas/Projects/gg-node-red/node_modules/zip-stream/LICENSE

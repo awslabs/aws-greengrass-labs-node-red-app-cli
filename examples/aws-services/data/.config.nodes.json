@@ -1,0 +1,3011 @@
+{
+    "node-red": {
+        "name": "node-red",
+        "version": "2.0.5",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "inject": {
+                "name": "inject",
+                "types": [
+                    "inject"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/20-inject.js"
+            },
+            "debug": {
+                "name": "debug",
+                "types": [
+                    "debug"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/21-debug.js"
+            },
+            "complete": {
+                "name": "complete",
+                "types": [
+                    "complete"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/24-complete.js"
+            },
+            "catch": {
+                "name": "catch",
+                "types": [
+                    "catch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/25-catch.js"
+            },
+            "status": {
+                "name": "status",
+                "types": [
+                    "status"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/25-status.js"
+            },
+            "link": {
+                "name": "link",
+                "types": [
+                    "link in",
+                    "link out"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/60-link.js"
+            },
+            "comment": {
+                "name": "comment",
+                "types": [
+                    "comment"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/90-comment.js"
+            },
+            "unknown": {
+                "name": "unknown",
+                "types": [
+                    "unknown"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/98-unknown.js"
+            },
+            "function": {
+                "name": "function",
+                "types": [
+                    "function"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/10-function.js"
+            },
+            "switch": {
+                "name": "switch",
+                "types": [
+                    "switch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/10-switch.js"
+            },
+            "change": {
+                "name": "change",
+                "types": [
+                    "change"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/15-change.js"
+            },
+            "range": {
+                "name": "range",
+                "types": [
+                    "range"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/16-range.js"
+            },
+            "template": {
+                "name": "template",
+                "types": [
+                    "template"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/80-template.js"
+            },
+            "delay": {
+                "name": "delay",
+                "types": [
+                    "delay"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/89-delay.js"
+            },
+            "trigger": {
+                "name": "trigger",
+                "types": [
+                    "trigger"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/89-trigger.js"
+            },
+            "exec": {
+                "name": "exec",
+                "types": [
+                    "exec"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/90-exec.js"
+            },
+            "rbe": {
+                "name": "rbe",
+                "types": [
+                    "rbe"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/rbe.js"
+            },
+            "tls": {
+                "name": "tls",
+                "types": [
+                    "tls-config"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/05-tls.js"
+            },
+            "httpproxy": {
+                "name": "httpproxy",
+                "types": [
+                    "http proxy"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/06-httpproxy.js"
+            },
+            "mqtt": {
+                "name": "mqtt",
+                "types": [
+                    "mqtt in",
+                    "mqtt out",
+                    "mqtt-broker"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/10-mqtt.js"
+            },
+            "httpin": {
+                "name": "httpin",
+                "types": [
+                    "http in",
+                    "http response"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/21-httpin.js"
+            },
+            "httprequest": {
+                "name": "httprequest",
+                "types": [
+                    "http request"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/21-httprequest.js"
+            },
+            "websocket": {
+                "name": "websocket",
+                "types": [
+                    "websocket in",
+                    "websocket out",
+                    "websocket-listener",
+                    "websocket-client"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/22-websocket.js"
+            },
+            "tcpin": {
+                "name": "tcpin",
+                "types": [
+                    "tcp in",
+                    "tcp out",
+                    "tcp request"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/31-tcpin.js"
+            },
+            "udp": {
+                "name": "udp",
+                "types": [
+                    "udp in",
+                    "udp out"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/32-udp.js"
+            },
+            "CSV": {
+                "name": "CSV",
+                "types": [
+                    "csv"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-CSV.js"
+            },
+            "HTML": {
+                "name": "HTML",
+                "types": [
+                    "html"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-HTML.js"
+            },
+            "JSON": {
+                "name": "JSON",
+                "types": [
+                    "json"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-JSON.js"
+            },
+            "XML": {
+                "name": "XML",
+                "types": [
+                    "xml"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-XML.js"
+            },
+            "YAML": {
+                "name": "YAML",
+                "types": [
+                    "yaml"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-YAML.js"
+            },
+            "split": {
+                "name": "split",
+                "types": [
+                    "split",
+                    "join"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/17-split.js"
+            },
+            "sort": {
+                "name": "sort",
+                "types": [
+                    "sort"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/18-sort.js"
+            },
+            "batch": {
+                "name": "batch",
+                "types": [
+                    "batch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/19-batch.js"
+            },
+            "file": {
+                "name": "file",
+                "types": [
+                    "file",
+                    "file in"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/storage/10-file.js"
+            },
+            "watch": {
+                "name": "watch",
+                "types": [
+                    "watch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/storage/23-watch.js"
+            }
+        }
+    },
+    "node-red-contrib-aws": {
+        "name": "node-red-contrib-aws",
+        "version": "0.7.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "AWS AccessAnalyzer": {
+                "name": "AWS AccessAnalyzer",
+                "types": [
+                    "AWS AccessAnalyzer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/accessanalyzer/AccessAnalyzer.js"
+            },
+            "AWS ACM": {
+                "name": "AWS ACM",
+                "types": [
+                    "AWS ACM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/acm/ACM.js"
+            },
+            "AWS ACMPCA": {
+                "name": "AWS ACMPCA",
+                "types": [
+                    "AWS ACMPCA"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/acmpca/ACMPCA.js"
+            },
+            "AWS Amp": {
+                "name": "AWS Amp",
+                "types": [
+                    "AWS Amp"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/amp/Amp.js"
+            },
+            "AWS Amplify": {
+                "name": "AWS Amplify",
+                "types": [
+                    "AWS Amplify"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/amplify/Amplify.js"
+            },
+            "AWS AmplifyBackend": {
+                "name": "AWS AmplifyBackend",
+                "types": [
+                    "AWS AmplifyBackend"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/amplifybackend/AmplifyBackend.js"
+            },
+            "AWS APIGateway": {
+                "name": "AWS APIGateway",
+                "types": [
+                    "AWS APIGateway"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/apigateway/APIGateway.js"
+            },
+            "AWS ApiGatewayManagementApi": {
+                "name": "AWS ApiGatewayManagementApi",
+                "types": [
+                    "AWS ApiGatewayManagementApi"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/apigatewaymanagementapi/ApiGatewayManagementApi.js"
+            },
+            "AWS ApiGatewayV2": {
+                "name": "AWS ApiGatewayV2",
+                "types": [
+                    "AWS ApiGatewayV2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/apigatewayv2/ApiGatewayV2.js"
+            },
+            "AWS AppConfig": {
+                "name": "AWS AppConfig",
+                "types": [
+                    "AWS AppConfig"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appconfig/AppConfig.js"
+            },
+            "AWS Appflow": {
+                "name": "AWS Appflow",
+                "types": [
+                    "AWS Appflow"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appflow/Appflow.js"
+            },
+            "AWS AppIntegrations": {
+                "name": "AWS AppIntegrations",
+                "types": [
+                    "AWS AppIntegrations"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appintegrations/AppIntegrations.js"
+            },
+            "AWS ApplicationCostProfiler": {
+                "name": "AWS ApplicationCostProfiler",
+                "types": [
+                    "AWS ApplicationCostProfiler"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/applicationcostprofiler/ApplicationCostProfiler.js"
+            },
+            "AWS ApplicationInsights": {
+                "name": "AWS ApplicationInsights",
+                "types": [
+                    "AWS ApplicationInsights"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/applicationinsights/ApplicationInsights.js"
+            },
+            "AWS AppMesh": {
+                "name": "AWS AppMesh",
+                "types": [
+                    "AWS AppMesh"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appmesh/AppMesh.js"
+            },
+            "AWS AppRunner": {
+                "name": "AWS AppRunner",
+                "types": [
+                    "AWS AppRunner"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/apprunner/AppRunner.js"
+            },
+            "AWS AppStream": {
+                "name": "AWS AppStream",
+                "types": [
+                    "AWS AppStream"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appstream/AppStream.js"
+            },
+            "AWS AppSync": {
+                "name": "AWS AppSync",
+                "types": [
+                    "AWS AppSync"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/appsync/AppSync.js"
+            },
+            "AWS Athena": {
+                "name": "AWS Athena",
+                "types": [
+                    "AWS Athena"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/athena/Athena.js"
+            },
+            "AWS AuditManager": {
+                "name": "AWS AuditManager",
+                "types": [
+                    "AWS AuditManager"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/auditmanager/AuditManager.js"
+            },
+            "AWS AutoScaling": {
+                "name": "AWS AutoScaling",
+                "types": [
+                    "AWS AutoScaling"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/autoscaling/AutoScaling.js"
+            },
+            "AWS Backup": {
+                "name": "AWS Backup",
+                "types": [
+                    "AWS Backup"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/backup/Backup.js"
+            },
+            "AWS Batch": {
+                "name": "AWS Batch",
+                "types": [
+                    "AWS Batch"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/batch/Batch.js"
+            },
+            "AWS Braket": {
+                "name": "AWS Braket",
+                "types": [
+                    "AWS Braket"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/braket/Braket.js"
+            },
+            "AWS Budgets": {
+                "name": "AWS Budgets",
+                "types": [
+                    "AWS Budgets"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/budgets/Budgets.js"
+            },
+            "AWS Chime": {
+                "name": "AWS Chime",
+                "types": [
+                    "AWS Chime"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/chime/Chime.js"
+            },
+            "AWS Cloud9": {
+                "name": "AWS Cloud9",
+                "types": [
+                    "AWS Cloud9"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloud9/Cloud9.js"
+            },
+            "AWS CloudDirectory": {
+                "name": "AWS CloudDirectory",
+                "types": [
+                    "AWS CloudDirectory"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/clouddirectory/CloudDirectory.js"
+            },
+            "AWS CloudFormation": {
+                "name": "AWS CloudFormation",
+                "types": [
+                    "AWS CloudFormation"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudformation/CloudFormation.js"
+            },
+            "AWS CloudFront": {
+                "name": "AWS CloudFront",
+                "types": [
+                    "AWS CloudFront"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudfront/CloudFront.js"
+            },
+            "AWS CloudHSM": {
+                "name": "AWS CloudHSM",
+                "types": [
+                    "AWS CloudHSM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudhsm/CloudHSM.js"
+            },
+            "AWS CloudHSMV2": {
+                "name": "AWS CloudHSMV2",
+                "types": [
+                    "AWS CloudHSMV2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudhsmv2/CloudHSMV2.js"
+            },
+            "AWS CloudSearch": {
+                "name": "AWS CloudSearch",
+                "types": [
+                    "AWS CloudSearch"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudsearch/CloudSearch.js"
+            },
+            "AWS CloudSearchDomain": {
+                "name": "AWS CloudSearchDomain",
+                "types": [
+                    "AWS CloudSearchDomain"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudsearchdomain/CloudSearchDomain.js"
+            },
+            "AWS CloudTrail": {
+                "name": "AWS CloudTrail",
+                "types": [
+                    "AWS CloudTrail"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudtrail/CloudTrail.js"
+            },
+            "AWS CloudWatch": {
+                "name": "AWS CloudWatch",
+                "types": [
+                    "AWS CloudWatch"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudwatch/CloudWatch.js"
+            },
+            "AWS CloudWatchEvents": {
+                "name": "AWS CloudWatchEvents",
+                "types": [
+                    "AWS CloudWatchEvents"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudwatchevents/CloudWatchEvents.js"
+            },
+            "AWS CloudWatchLogs": {
+                "name": "AWS CloudWatchLogs",
+                "types": [
+                    "AWS CloudWatchLogs"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cloudwatchlogs/CloudWatchLogs.js"
+            },
+            "AWS CodeArtifact": {
+                "name": "AWS CodeArtifact",
+                "types": [
+                    "AWS CodeArtifact"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codeartifact/CodeArtifact.js"
+            },
+            "AWS CodeBuild": {
+                "name": "AWS CodeBuild",
+                "types": [
+                    "AWS CodeBuild"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codebuild/CodeBuild.js"
+            },
+            "AWS CodeCommit": {
+                "name": "AWS CodeCommit",
+                "types": [
+                    "AWS CodeCommit"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codecommit/CodeCommit.js"
+            },
+            "AWS CodeDeploy": {
+                "name": "AWS CodeDeploy",
+                "types": [
+                    "AWS CodeDeploy"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codedeploy/CodeDeploy.js"
+            },
+            "AWS CodeGuruProfiler": {
+                "name": "AWS CodeGuruProfiler",
+                "types": [
+                    "AWS CodeGuruProfiler"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codeguruprofiler/CodeGuruProfiler.js"
+            },
+            "AWS CodeGuruReviewer": {
+                "name": "AWS CodeGuruReviewer",
+                "types": [
+                    "AWS CodeGuruReviewer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codegurureviewer/CodeGuruReviewer.js"
+            },
+            "AWS CodePipeline": {
+                "name": "AWS CodePipeline",
+                "types": [
+                    "AWS CodePipeline"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codepipeline/CodePipeline.js"
+            },
+            "AWS CodeStar": {
+                "name": "AWS CodeStar",
+                "types": [
+                    "AWS CodeStar"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codestar/CodeStar.js"
+            },
+            "AWS CodeStarconnections": {
+                "name": "AWS CodeStarconnections",
+                "types": [
+                    "AWS CodeStarconnections"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codestarconnections/CodeStarconnections.js"
+            },
+            "AWS CodeStarNotifications": {
+                "name": "AWS CodeStarNotifications",
+                "types": [
+                    "AWS CodeStarNotifications"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/codestarnotifications/CodeStarNotifications.js"
+            },
+            "AWS CognitoIdentity": {
+                "name": "AWS CognitoIdentity",
+                "types": [
+                    "AWS CognitoIdentity"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cognitoidentity/CognitoIdentity.js"
+            },
+            "AWS CognitoSync": {
+                "name": "AWS CognitoSync",
+                "types": [
+                    "AWS CognitoSync"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/cognitosync/CognitoSync.js"
+            },
+            "AWS Comprehend": {
+                "name": "AWS Comprehend",
+                "types": [
+                    "AWS Comprehend"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/comprehend/Comprehend.js"
+            },
+            "AWS ComprehendMedical": {
+                "name": "AWS ComprehendMedical",
+                "types": [
+                    "AWS ComprehendMedical"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/comprehendmedical/ComprehendMedical.js"
+            },
+            "AWS ComputeOptimizer": {
+                "name": "AWS ComputeOptimizer",
+                "types": [
+                    "AWS ComputeOptimizer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/computeoptimizer/ComputeOptimizer.js"
+            },
+            "AWS ConfigService": {
+                "name": "AWS ConfigService",
+                "types": [
+                    "AWS ConfigService"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/configservice/ConfigService.js"
+            },
+            "AWS Connect": {
+                "name": "AWS Connect",
+                "types": [
+                    "AWS Connect"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/connect/Connect.js"
+            },
+            "AWS ConnectParticipant": {
+                "name": "AWS ConnectParticipant",
+                "types": [
+                    "AWS ConnectParticipant"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/connectparticipant/ConnectParticipant.js"
+            },
+            "AWS CostExplorer": {
+                "name": "AWS CostExplorer",
+                "types": [
+                    "AWS CostExplorer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/costexplorer/CostExplorer.js"
+            },
+            "AWS CustomerProfiles": {
+                "name": "AWS CustomerProfiles",
+                "types": [
+                    "AWS CustomerProfiles"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/customerprofiles/CustomerProfiles.js"
+            },
+            "AWS DataBrew": {
+                "name": "AWS DataBrew",
+                "types": [
+                    "AWS DataBrew"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/databrew/DataBrew.js"
+            },
+            "AWS DataExchange": {
+                "name": "AWS DataExchange",
+                "types": [
+                    "AWS DataExchange"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/dataexchange/DataExchange.js"
+            },
+            "AWS DataPipeline": {
+                "name": "AWS DataPipeline",
+                "types": [
+                    "AWS DataPipeline"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/datapipeline/DataPipeline.js"
+            },
+            "AWS DataSync": {
+                "name": "AWS DataSync",
+                "types": [
+                    "AWS DataSync"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/datasync/DataSync.js"
+            },
+            "AWS DAX": {
+                "name": "AWS DAX",
+                "types": [
+                    "AWS DAX"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/dax/DAX.js"
+            },
+            "AWS Detective": {
+                "name": "AWS Detective",
+                "types": [
+                    "AWS Detective"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/detective/Detective.js"
+            },
+            "AWS DeviceFarm": {
+                "name": "AWS DeviceFarm",
+                "types": [
+                    "AWS DeviceFarm"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/devicefarm/DeviceFarm.js"
+            },
+            "AWS DevOpsGuru": {
+                "name": "AWS DevOpsGuru",
+                "types": [
+                    "AWS DevOpsGuru"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/devopsguru/DevOpsGuru.js"
+            },
+            "AWS DirectConnect": {
+                "name": "AWS DirectConnect",
+                "types": [
+                    "AWS DirectConnect"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/directconnect/DirectConnect.js"
+            },
+            "AWS DirectoryService": {
+                "name": "AWS DirectoryService",
+                "types": [
+                    "AWS DirectoryService"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/directoryservice/DirectoryService.js"
+            },
+            "AWS DLM": {
+                "name": "AWS DLM",
+                "types": [
+                    "AWS DLM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/dlm/DLM.js"
+            },
+            "AWS DocDB": {
+                "name": "AWS DocDB",
+                "types": [
+                    "AWS DocDB"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/docdb/DocDB.js"
+            },
+            "AWS DynamoDB": {
+                "name": "AWS DynamoDB",
+                "types": [
+                    "AWS DynamoDB"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/dynamodb/DynamoDB.js"
+            },
+            "AWS DynamoDBStreams": {
+                "name": "AWS DynamoDBStreams",
+                "types": [
+                    "AWS DynamoDBStreams"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/dynamodbstreams/DynamoDBStreams.js"
+            },
+            "AWS EBS": {
+                "name": "AWS EBS",
+                "types": [
+                    "AWS EBS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ebs/EBS.js"
+            },
+            "AWS EC2": {
+                "name": "AWS EC2",
+                "types": [
+                    "AWS EC2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ec2/EC2.js"
+            },
+            "AWS ECR": {
+                "name": "AWS ECR",
+                "types": [
+                    "AWS ECR"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ecr/ECR.js"
+            },
+            "AWS ECRPUBLIC": {
+                "name": "AWS ECRPUBLIC",
+                "types": [
+                    "AWS ECRPUBLIC"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ecrpublic/ECRPUBLIC.js"
+            },
+            "AWS ECS": {
+                "name": "AWS ECS",
+                "types": [
+                    "AWS ECS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ecs/ECS.js"
+            },
+            "AWS EFS": {
+                "name": "AWS EFS",
+                "types": [
+                    "AWS EFS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/efs/EFS.js"
+            },
+            "AWS EKS": {
+                "name": "AWS EKS",
+                "types": [
+                    "AWS EKS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/eks/EKS.js"
+            },
+            "AWS ElastiCache": {
+                "name": "AWS ElastiCache",
+                "types": [
+                    "AWS ElastiCache"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/elasticache/ElastiCache.js"
+            },
+            "AWS ElasticBeanstalk": {
+                "name": "AWS ElasticBeanstalk",
+                "types": [
+                    "AWS ElasticBeanstalk"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/elasticbeanstalk/ElasticBeanstalk.js"
+            },
+            "AWS ElasticInference": {
+                "name": "AWS ElasticInference",
+                "types": [
+                    "AWS ElasticInference"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/elasticinference/ElasticInference.js"
+            },
+            "AWS ElasticTranscoder": {
+                "name": "AWS ElasticTranscoder",
+                "types": [
+                    "AWS ElasticTranscoder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/elastictranscoder/ElasticTranscoder.js"
+            },
+            "AWS EMR": {
+                "name": "AWS EMR",
+                "types": [
+                    "AWS EMR"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/emr/EMR.js"
+            },
+            "AWS EMRcontainers": {
+                "name": "AWS EMRcontainers",
+                "types": [
+                    "AWS EMRcontainers"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/emrcontainers/EMRcontainers.js"
+            },
+            "AWS EventBridge": {
+                "name": "AWS EventBridge",
+                "types": [
+                    "AWS EventBridge"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/eventbridge/EventBridge.js"
+            },
+            "AWS Finspace": {
+                "name": "AWS Finspace",
+                "types": [
+                    "AWS Finspace"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/finspace/Finspace.js"
+            },
+            "AWS Finspacedata": {
+                "name": "AWS Finspacedata",
+                "types": [
+                    "AWS Finspacedata"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/finspacedata/Finspacedata.js"
+            },
+            "AWS Firehose": {
+                "name": "AWS Firehose",
+                "types": [
+                    "AWS Firehose"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/firehose/Firehose.js"
+            },
+            "AWS Fis": {
+                "name": "AWS Fis",
+                "types": [
+                    "AWS Fis"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/fis/Fis.js"
+            },
+            "AWS FMS": {
+                "name": "AWS FMS",
+                "types": [
+                    "AWS FMS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/fms/FMS.js"
+            },
+            "AWS FraudDetector": {
+                "name": "AWS FraudDetector",
+                "types": [
+                    "AWS FraudDetector"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/frauddetector/FraudDetector.js"
+            },
+            "AWS FSx": {
+                "name": "AWS FSx",
+                "types": [
+                    "AWS FSx"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/fsx/FSx.js"
+            },
+            "AWS GameLift": {
+                "name": "AWS GameLift",
+                "types": [
+                    "AWS GameLift"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/gamelift/GameLift.js"
+            },
+            "AWS Glacier": {
+                "name": "AWS Glacier",
+                "types": [
+                    "AWS Glacier"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/glacier/Glacier.js"
+            },
+            "AWS GlobalAccelerator": {
+                "name": "AWS GlobalAccelerator",
+                "types": [
+                    "AWS GlobalAccelerator"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/globalaccelerator/GlobalAccelerator.js"
+            },
+            "AWS Glue": {
+                "name": "AWS Glue",
+                "types": [
+                    "AWS Glue"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/glue/Glue.js"
+            },
+            "AWS Greengrass": {
+                "name": "AWS Greengrass",
+                "types": [
+                    "AWS Greengrass"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/greengrass/Greengrass.js"
+            },
+            "AWS GreengrassV2": {
+                "name": "AWS GreengrassV2",
+                "types": [
+                    "AWS GreengrassV2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/greengrassv2/GreengrassV2.js"
+            },
+            "AWS GroundStation": {
+                "name": "AWS GroundStation",
+                "types": [
+                    "AWS GroundStation"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/groundstation/GroundStation.js"
+            },
+            "AWS GuardDuty": {
+                "name": "AWS GuardDuty",
+                "types": [
+                    "AWS GuardDuty"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/guardduty/GuardDuty.js"
+            },
+            "AWS Health": {
+                "name": "AWS Health",
+                "types": [
+                    "AWS Health"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/health/Health.js"
+            },
+            "AWS HealthLake": {
+                "name": "AWS HealthLake",
+                "types": [
+                    "AWS HealthLake"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/healthlake/HealthLake.js"
+            },
+            "AWS Honeycode": {
+                "name": "AWS Honeycode",
+                "types": [
+                    "AWS Honeycode"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/honeycode/Honeycode.js"
+            },
+            "AWS IAM": {
+                "name": "AWS IAM",
+                "types": [
+                    "AWS IAM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iam/IAM.js"
+            },
+            "AWS IdentityStore": {
+                "name": "AWS IdentityStore",
+                "types": [
+                    "AWS IdentityStore"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/identitystore/IdentityStore.js"
+            },
+            "AWS Imagebuilder": {
+                "name": "AWS Imagebuilder",
+                "types": [
+                    "AWS Imagebuilder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/imagebuilder/Imagebuilder.js"
+            },
+            "AWS ImportExport": {
+                "name": "AWS ImportExport",
+                "types": [
+                    "AWS ImportExport"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/importexport/ImportExport.js"
+            },
+            "AWS Inspector": {
+                "name": "AWS Inspector",
+                "types": [
+                    "AWS Inspector"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/inspector/Inspector.js"
+            },
+            "AWS Iot": {
+                "name": "AWS Iot",
+                "types": [
+                    "AWS Iot"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iot/Iot.js"
+            },
+            "AWS IoTAnalytics": {
+                "name": "AWS IoTAnalytics",
+                "types": [
+                    "AWS IoTAnalytics"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotanalytics/IoTAnalytics.js"
+            },
+            "AWS IotData": {
+                "name": "AWS IotData",
+                "types": [
+                    "AWS IotData"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotdata/IotData.js"
+            },
+            "AWS IotDeviceAdvisor": {
+                "name": "AWS IotDeviceAdvisor",
+                "types": [
+                    "AWS IotDeviceAdvisor"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotdeviceadvisor/IotDeviceAdvisor.js"
+            },
+            "AWS IoTEvents": {
+                "name": "AWS IoTEvents",
+                "types": [
+                    "AWS IoTEvents"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotevents/IoTEvents.js"
+            },
+            "AWS IoTFleetHub": {
+                "name": "AWS IoTFleetHub",
+                "types": [
+                    "AWS IoTFleetHub"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotfleethub/IoTFleetHub.js"
+            },
+            "AWS IoTSecureTunneling": {
+                "name": "AWS IoTSecureTunneling",
+                "types": [
+                    "AWS IoTSecureTunneling"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotsecuretunneling/IoTSecureTunneling.js"
+            },
+            "AWS IoTSiteWise": {
+                "name": "AWS IoTSiteWise",
+                "types": [
+                    "AWS IoTSiteWise"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotsitewise/IoTSiteWise.js"
+            },
+            "AWS IoTThingsGraph": {
+                "name": "AWS IoTThingsGraph",
+                "types": [
+                    "AWS IoTThingsGraph"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotthingsgraph/IoTThingsGraph.js"
+            },
+            "AWS IoTWireless": {
+                "name": "AWS IoTWireless",
+                "types": [
+                    "AWS IoTWireless"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/iotwireless/IoTWireless.js"
+            },
+            "AWS IVS": {
+                "name": "AWS IVS",
+                "types": [
+                    "AWS IVS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ivs/IVS.js"
+            },
+            "AWS Kafka": {
+                "name": "AWS Kafka",
+                "types": [
+                    "AWS Kafka"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kafka/Kafka.js"
+            },
+            "AWS Kendra": {
+                "name": "AWS Kendra",
+                "types": [
+                    "AWS Kendra"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kendra/Kendra.js"
+            },
+            "AWS Kinesis": {
+                "name": "AWS Kinesis",
+                "types": [
+                    "AWS Kinesis"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kinesis/Kinesis.js"
+            },
+            "AWS KinesisAnalytics": {
+                "name": "AWS KinesisAnalytics",
+                "types": [
+                    "AWS KinesisAnalytics"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kinesisanalytics/KinesisAnalytics.js"
+            },
+            "AWS KinesisVideo": {
+                "name": "AWS KinesisVideo",
+                "types": [
+                    "AWS KinesisVideo"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kinesisvideo/KinesisVideo.js"
+            },
+            "AWS KMS": {
+                "name": "AWS KMS",
+                "types": [
+                    "AWS KMS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/kms/KMS.js"
+            },
+            "AWS LakeFormation": {
+                "name": "AWS LakeFormation",
+                "types": [
+                    "AWS LakeFormation"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lakeformation/LakeFormation.js"
+            },
+            "AWS Lambda": {
+                "name": "AWS Lambda",
+                "types": [
+                    "AWS Lambda"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lambda/Lambda.js"
+            },
+            "AWS LicenseManager": {
+                "name": "AWS LicenseManager",
+                "types": [
+                    "AWS LicenseManager"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/licensemanager/LicenseManager.js"
+            },
+            "AWS Lightsail": {
+                "name": "AWS Lightsail",
+                "types": [
+                    "AWS Lightsail"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lightsail/Lightsail.js"
+            },
+            "AWS Location": {
+                "name": "AWS Location",
+                "types": [
+                    "AWS Location"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/location/Location.js"
+            },
+            "AWS LookoutEquipment": {
+                "name": "AWS LookoutEquipment",
+                "types": [
+                    "AWS LookoutEquipment"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lookoutequipment/LookoutEquipment.js"
+            },
+            "AWS LookoutMetrics": {
+                "name": "AWS LookoutMetrics",
+                "types": [
+                    "AWS LookoutMetrics"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lookoutmetrics/LookoutMetrics.js"
+            },
+            "AWS LookoutVision": {
+                "name": "AWS LookoutVision",
+                "types": [
+                    "AWS LookoutVision"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/lookoutvision/LookoutVision.js"
+            },
+            "AWS MachineLearning": {
+                "name": "AWS MachineLearning",
+                "types": [
+                    "AWS MachineLearning"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/machinelearning/MachineLearning.js"
+            },
+            "AWS Macie": {
+                "name": "AWS Macie",
+                "types": [
+                    "AWS Macie"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/macie/Macie.js"
+            },
+            "AWS Macie2": {
+                "name": "AWS Macie2",
+                "types": [
+                    "AWS Macie2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/macie2/Macie2.js"
+            },
+            "AWS ManagedBlockchain": {
+                "name": "AWS ManagedBlockchain",
+                "types": [
+                    "AWS ManagedBlockchain"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/managedblockchain/ManagedBlockchain.js"
+            },
+            "AWS MarketplaceCatalog": {
+                "name": "AWS MarketplaceCatalog",
+                "types": [
+                    "AWS MarketplaceCatalog"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/marketplacecatalog/MarketplaceCatalog.js"
+            },
+            "AWS MarketplaceMetering": {
+                "name": "AWS MarketplaceMetering",
+                "types": [
+                    "AWS MarketplaceMetering"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/marketplacemetering/MarketplaceMetering.js"
+            },
+            "AWS MediaConnect": {
+                "name": "AWS MediaConnect",
+                "types": [
+                    "AWS MediaConnect"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediaconnect/MediaConnect.js"
+            },
+            "AWS MediaConvert": {
+                "name": "AWS MediaConvert",
+                "types": [
+                    "AWS MediaConvert"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediaconvert/MediaConvert.js"
+            },
+            "AWS MediaLive": {
+                "name": "AWS MediaLive",
+                "types": [
+                    "AWS MediaLive"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/medialive/MediaLive.js"
+            },
+            "AWS MediaPackage": {
+                "name": "AWS MediaPackage",
+                "types": [
+                    "AWS MediaPackage"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediapackage/MediaPackage.js"
+            },
+            "AWS MediaPackageVod": {
+                "name": "AWS MediaPackageVod",
+                "types": [
+                    "AWS MediaPackageVod"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediapackagevod/MediaPackageVod.js"
+            },
+            "AWS MediaStore": {
+                "name": "AWS MediaStore",
+                "types": [
+                    "AWS MediaStore"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediastore/MediaStore.js"
+            },
+            "AWS MediaStoreData": {
+                "name": "AWS MediaStoreData",
+                "types": [
+                    "AWS MediaStoreData"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediastoredata/MediaStoreData.js"
+            },
+            "AWS MediaTailor": {
+                "name": "AWS MediaTailor",
+                "types": [
+                    "AWS MediaTailor"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mediatailor/MediaTailor.js"
+            },
+            "AWS MemoryDB": {
+                "name": "AWS MemoryDB",
+                "types": [
+                    "AWS MemoryDB"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/memorydb/MemoryDB.js"
+            },
+            "AWS Mgn": {
+                "name": "AWS Mgn",
+                "types": [
+                    "AWS Mgn"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mgn/Mgn.js"
+            },
+            "AWS MigrationHub": {
+                "name": "AWS MigrationHub",
+                "types": [
+                    "AWS MigrationHub"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/migrationhub/MigrationHub.js"
+            },
+            "AWS MigrationHubConfig": {
+                "name": "AWS MigrationHubConfig",
+                "types": [
+                    "AWS MigrationHubConfig"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/migrationhubconfig/MigrationHubConfig.js"
+            },
+            "AWS Mobile": {
+                "name": "AWS Mobile",
+                "types": [
+                    "AWS Mobile"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mobile/Mobile.js"
+            },
+            "AWS MobileAnalytics": {
+                "name": "AWS MobileAnalytics",
+                "types": [
+                    "AWS MobileAnalytics"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mobileanalytics/MobileAnalytics.js"
+            },
+            "AWS MQ": {
+                "name": "AWS MQ",
+                "types": [
+                    "AWS MQ"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mq/MQ.js"
+            },
+            "AWS MTurk": {
+                "name": "AWS MTurk",
+                "types": [
+                    "AWS MTurk"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mturk/MTurk.js"
+            },
+            "AWS MWAA": {
+                "name": "AWS MWAA",
+                "types": [
+                    "AWS MWAA"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/mwaa/MWAA.js"
+            },
+            "AWS Neptune": {
+                "name": "AWS Neptune",
+                "types": [
+                    "AWS Neptune"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/neptune/Neptune.js"
+            },
+            "AWS NetworkFirewall": {
+                "name": "AWS NetworkFirewall",
+                "types": [
+                    "AWS NetworkFirewall"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/networkfirewall/NetworkFirewall.js"
+            },
+            "AWS NetworkManager": {
+                "name": "AWS NetworkManager",
+                "types": [
+                    "AWS NetworkManager"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/networkmanager/NetworkManager.js"
+            },
+            "AWS Nimble": {
+                "name": "AWS Nimble",
+                "types": [
+                    "AWS Nimble"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/nimble/Nimble.js"
+            },
+            "AWS OpsWorks": {
+                "name": "AWS OpsWorks",
+                "types": [
+                    "AWS OpsWorks"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/opsworks/OpsWorks.js"
+            },
+            "AWS OpsWorksCM": {
+                "name": "AWS OpsWorksCM",
+                "types": [
+                    "AWS OpsWorksCM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/opsworkscm/OpsWorksCM.js"
+            },
+            "AWS Organizations": {
+                "name": "AWS Organizations",
+                "types": [
+                    "AWS Organizations"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/organizations/Organizations.js"
+            },
+            "AWS Outposts": {
+                "name": "AWS Outposts",
+                "types": [
+                    "AWS Outposts"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/outposts/Outposts.js"
+            },
+            "AWS Personalize": {
+                "name": "AWS Personalize",
+                "types": [
+                    "AWS Personalize"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/personalize/Personalize.js"
+            },
+            "AWS PersonalizeEvents": {
+                "name": "AWS PersonalizeEvents",
+                "types": [
+                    "AWS PersonalizeEvents"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/personalizeevents/PersonalizeEvents.js"
+            },
+            "AWS PersonalizeRuntime": {
+                "name": "AWS PersonalizeRuntime",
+                "types": [
+                    "AWS PersonalizeRuntime"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/personalizeruntime/PersonalizeRuntime.js"
+            },
+            "AWS PI": {
+                "name": "AWS PI",
+                "types": [
+                    "AWS PI"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/pi/PI.js"
+            },
+            "AWS Pinpoint": {
+                "name": "AWS Pinpoint",
+                "types": [
+                    "AWS Pinpoint"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/pinpoint/Pinpoint.js"
+            },
+            "AWS PinpointEmail": {
+                "name": "AWS PinpointEmail",
+                "types": [
+                    "AWS PinpointEmail"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/pinpointemail/PinpointEmail.js"
+            },
+            "AWS Polly": {
+                "name": "AWS Polly",
+                "types": [
+                    "AWS Polly"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/polly/Polly.js"
+            },
+            "AWS Pricing": {
+                "name": "AWS Pricing",
+                "types": [
+                    "AWS Pricing"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/pricing/Pricing.js"
+            },
+            "AWS Proton": {
+                "name": "AWS Proton",
+                "types": [
+                    "AWS Proton"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/proton/Proton.js"
+            },
+            "AWS QLDB": {
+                "name": "AWS QLDB",
+                "types": [
+                    "AWS QLDB"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/qldb/QLDB.js"
+            },
+            "AWS QLDBSession": {
+                "name": "AWS QLDBSession",
+                "types": [
+                    "AWS QLDBSession"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/qldbsession/QLDBSession.js"
+            },
+            "AWS QuickSight": {
+                "name": "AWS QuickSight",
+                "types": [
+                    "AWS QuickSight"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/quicksight/QuickSight.js"
+            },
+            "AWS RAM": {
+                "name": "AWS RAM",
+                "types": [
+                    "AWS RAM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ram/RAM.js"
+            },
+            "AWS RDS": {
+                "name": "AWS RDS",
+                "types": [
+                    "AWS RDS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/rds/RDS.js"
+            },
+            "AWS Redshift": {
+                "name": "AWS Redshift",
+                "types": [
+                    "AWS Redshift"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/redshift/Redshift.js"
+            },
+            "AWS RedshiftData": {
+                "name": "AWS RedshiftData",
+                "types": [
+                    "AWS RedshiftData"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/redshiftdata/RedshiftData.js"
+            },
+            "AWS Rekognition": {
+                "name": "AWS Rekognition",
+                "types": [
+                    "AWS Rekognition"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/rekognition/Rekognition.js"
+            },
+            "AWS ResourceGroups": {
+                "name": "AWS ResourceGroups",
+                "types": [
+                    "AWS ResourceGroups"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/resourcegroups/ResourceGroups.js"
+            },
+            "AWS RoboMaker": {
+                "name": "AWS RoboMaker",
+                "types": [
+                    "AWS RoboMaker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/robomaker/RoboMaker.js"
+            },
+            "AWS Route53": {
+                "name": "AWS Route53",
+                "types": [
+                    "AWS Route53"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/route53/Route53.js"
+            },
+            "AWS Route53Resolver": {
+                "name": "AWS Route53Resolver",
+                "types": [
+                    "AWS Route53Resolver"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/route53resolver/Route53Resolver.js"
+            },
+            "AWS S3": {
+                "name": "AWS S3",
+                "types": [
+                    "AWS S3"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/s3/S3.js"
+            },
+            "AWS S3Control": {
+                "name": "AWS S3Control",
+                "types": [
+                    "AWS S3Control"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/s3control/S3Control.js"
+            },
+            "AWS S3Outposts": {
+                "name": "AWS S3Outposts",
+                "types": [
+                    "AWS S3Outposts"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/s3outposts/S3Outposts.js"
+            },
+            "AWS SageMaker": {
+                "name": "AWS SageMaker",
+                "types": [
+                    "AWS SageMaker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sagemaker/SageMaker.js"
+            },
+            "AWS SagemakerEdge": {
+                "name": "AWS SagemakerEdge",
+                "types": [
+                    "AWS SagemakerEdge"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sagemakeredge/SagemakerEdge.js"
+            },
+            "AWS SageMakerRuntime": {
+                "name": "AWS SageMakerRuntime",
+                "types": [
+                    "AWS SageMakerRuntime"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sagemakerruntime/SageMakerRuntime.js"
+            },
+            "AWS SavingsPlans": {
+                "name": "AWS SavingsPlans",
+                "types": [
+                    "AWS SavingsPlans"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/savingsplans/SavingsPlans.js"
+            },
+            "AWS Schemas": {
+                "name": "AWS Schemas",
+                "types": [
+                    "AWS Schemas"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/schemas/Schemas.js"
+            },
+            "AWS SecretsManager": {
+                "name": "AWS SecretsManager",
+                "types": [
+                    "AWS SecretsManager"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/secretsmanager/SecretsManager.js"
+            },
+            "AWS SecurityHub": {
+                "name": "AWS SecurityHub",
+                "types": [
+                    "AWS SecurityHub"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/securityhub/SecurityHub.js"
+            },
+            "AWS ServerlessApplicationRepository": {
+                "name": "AWS ServerlessApplicationRepository",
+                "types": [
+                    "AWS ServerlessApplicationRepository"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/serverlessapplicationrepository/ServerlessApplicationRepository.js"
+            },
+            "AWS ServiceCatalog": {
+                "name": "AWS ServiceCatalog",
+                "types": [
+                    "AWS ServiceCatalog"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/servicecatalog/ServiceCatalog.js"
+            },
+            "AWS ServiceDiscovery": {
+                "name": "AWS ServiceDiscovery",
+                "types": [
+                    "AWS ServiceDiscovery"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/servicediscovery/ServiceDiscovery.js"
+            },
+            "AWS ServiceQuotas": {
+                "name": "AWS ServiceQuotas",
+                "types": [
+                    "AWS ServiceQuotas"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/servicequotas/ServiceQuotas.js"
+            },
+            "AWS SES": {
+                "name": "AWS SES",
+                "types": [
+                    "AWS SES"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ses/SES.js"
+            },
+            "AWS SESV2": {
+                "name": "AWS SESV2",
+                "types": [
+                    "AWS SESV2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sesv2/SESV2.js"
+            },
+            "AWS Shield": {
+                "name": "AWS Shield",
+                "types": [
+                    "AWS Shield"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/shield/Shield.js"
+            },
+            "AWS Signer": {
+                "name": "AWS Signer",
+                "types": [
+                    "AWS Signer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/signer/Signer.js"
+            },
+            "AWS SimpleDB": {
+                "name": "AWS SimpleDB",
+                "types": [
+                    "AWS SimpleDB"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/simpledb/SimpleDB.js"
+            },
+            "AWS SMS": {
+                "name": "AWS SMS",
+                "types": [
+                    "AWS SMS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sms/SMS.js"
+            },
+            "AWS Snowball": {
+                "name": "AWS Snowball",
+                "types": [
+                    "AWS Snowball"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/snowball/Snowball.js"
+            },
+            "AWS SNS": {
+                "name": "AWS SNS",
+                "types": [
+                    "AWS SNS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sns/SNS.js"
+            },
+            "AWS SQS": {
+                "name": "AWS SQS",
+                "types": [
+                    "AWS SQS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sqs/SQS.js"
+            },
+            "AWS SSM": {
+                "name": "AWS SSM",
+                "types": [
+                    "AWS SSM"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ssm/SSM.js"
+            },
+            "AWS SSMContacts": {
+                "name": "AWS SSMContacts",
+                "types": [
+                    "AWS SSMContacts"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ssmcontacts/SSMContacts.js"
+            },
+            "AWS SSMIncidents": {
+                "name": "AWS SSMIncidents",
+                "types": [
+                    "AWS SSMIncidents"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ssmincidents/SSMIncidents.js"
+            },
+            "AWS SSO": {
+                "name": "AWS SSO",
+                "types": [
+                    "AWS SSO"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sso/SSO.js"
+            },
+            "AWS SSOAdmin": {
+                "name": "AWS SSOAdmin",
+                "types": [
+                    "AWS SSOAdmin"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ssoadmin/SSOAdmin.js"
+            },
+            "AWS SSOOIDC": {
+                "name": "AWS SSOOIDC",
+                "types": [
+                    "AWS SSOOIDC"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/ssooidc/SSOOIDC.js"
+            },
+            "AWS StorageGateway": {
+                "name": "AWS StorageGateway",
+                "types": [
+                    "AWS StorageGateway"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/storagegateway/StorageGateway.js"
+            },
+            "AWS STS": {
+                "name": "AWS STS",
+                "types": [
+                    "AWS STS"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/sts/STS.js"
+            },
+            "AWS Support": {
+                "name": "AWS Support",
+                "types": [
+                    "AWS Support"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/support/Support.js"
+            },
+            "AWS SWF": {
+                "name": "AWS SWF",
+                "types": [
+                    "AWS SWF"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/swf/SWF.js"
+            },
+            "AWS Synthetics": {
+                "name": "AWS Synthetics",
+                "types": [
+                    "AWS Synthetics"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/synthetics/Synthetics.js"
+            },
+            "AWS Textract": {
+                "name": "AWS Textract",
+                "types": [
+                    "AWS Textract"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/textract/Textract.js"
+            },
+            "AWS TimestreamQuery": {
+                "name": "AWS TimestreamQuery",
+                "types": [
+                    "AWS TimestreamQuery"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/timestreamquery/TimestreamQuery.js"
+            },
+            "AWS TimestreamWrite": {
+                "name": "AWS TimestreamWrite",
+                "types": [
+                    "AWS TimestreamWrite"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/timestreamwrite/TimestreamWrite.js"
+            },
+            "AWS Transfer": {
+                "name": "AWS Transfer",
+                "types": [
+                    "AWS Transfer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/transfer/Transfer.js"
+            },
+            "AWS Translate": {
+                "name": "AWS Translate",
+                "types": [
+                    "AWS Translate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/translate/Translate.js"
+            },
+            "AWS WAF": {
+                "name": "AWS WAF",
+                "types": [
+                    "AWS WAF"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/waf/WAF.js"
+            },
+            "AWS WAFRegional": {
+                "name": "AWS WAFRegional",
+                "types": [
+                    "AWS WAFRegional"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/wafregional/WAFRegional.js"
+            },
+            "AWS WAFV2": {
+                "name": "AWS WAFV2",
+                "types": [
+                    "AWS WAFV2"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/wafv2/WAFV2.js"
+            },
+            "AWS WellArchitected": {
+                "name": "AWS WellArchitected",
+                "types": [
+                    "AWS WellArchitected"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/wellarchitected/WellArchitected.js"
+            },
+            "AWS WorkDocs": {
+                "name": "AWS WorkDocs",
+                "types": [
+                    "AWS WorkDocs"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/workdocs/WorkDocs.js"
+            },
+            "AWS WorkLink": {
+                "name": "AWS WorkLink",
+                "types": [
+                    "AWS WorkLink"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/worklink/WorkLink.js"
+            },
+            "AWS WorkMail": {
+                "name": "AWS WorkMail",
+                "types": [
+                    "AWS WorkMail"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/workmail/WorkMail.js"
+            },
+            "AWS WorkMailMessageFlow": {
+                "name": "AWS WorkMailMessageFlow",
+                "types": [
+                    "AWS WorkMailMessageFlow"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/workmailmessageflow/WorkMailMessageFlow.js"
+            },
+            "AWS WorkSpaces": {
+                "name": "AWS WorkSpaces",
+                "types": [
+                    "AWS WorkSpaces"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/workspaces/WorkSpaces.js"
+            },
+            "AWS XRay": {
+                "name": "AWS XRay",
+                "types": [
+                    "AWS XRay"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/xray/XRay.js"
+            },
+            "amazon config": {
+                "name": "amazon config",
+                "types": [
+                    "amazon config"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aws",
+                "file": "/data/node_modules/node-red-contrib-aws/nodes/aws_config.js"
+            }
+        }
+    }
+}

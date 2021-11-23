@@ -1,0 +1,9 @@
+{
+    "name": "node-red-stream-manager-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-aws-stream-manager": "github:massi-ang/node-red-contrib-aws-stream-manager#07ceca2"
+    }
+}
