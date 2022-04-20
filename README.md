@@ -1,6 +1,16 @@
 # AWS IoT Greengrass v2 Node-RED CLI
 
-A CLI tool that create Greengrass v2 components from your Node-RED flows
+A CLI tool that create Greengrass v2 components from your Node-RED flows.
+
+Node-RED is a great low-code solution, based on NodeJS, and it can run on a disparate range of devices. Deploying Node-RED on a few server or a laptop is trivial, deploying and managing the software on hundreds or thousands devices is a challenging process and there are no out-of-the-box solutions. 
+
+The [Node-RED community components]() can be used to deploy Node-RED to thousands of devices running AWS IoT Greengrass and provide a tested and secured solution, but this only solves one aspect of the problem.
+
+The other aspect is about the management of the Node-RED flows to be run on those thousands of devices, which is what the Node-RED CLI tools is solving.
+
+This tool allows users to take a Node-RED flow that has been created in a local Node-RED environment and distribute it to all the target devices thanks to the AWS IoT Greengrass deployment mechanism. 
+
+The tool can be used both interactively or integrated as part of a CI/CD pipeline. 
 
 ## Pre-requisites
 
@@ -12,10 +22,11 @@ A CLI tool that create Greengrass v2 components from your Node-RED flows
 * AWS IoT Greengrass and its prerequisites [Install the AWS IoT Greengrass Core software](https://docs.aws.amazon.com/greengrass/v2/developerguide/install-greengrass-core-v2.html)
 * NodeJS compatible with the Node-RED version (eg Node 12 for Node-RED 2.x) installed on the host [NodeJS downloads](https://nodejs.org/en/download/). `nvm` and similar tools are not supported.
 * If you run Node-RED as a container, install the Docker engine [Install Docker engine](https://docs.docker.com/engine/install/)
+* A deployment containing one of the Node-RED Greengrass components https://github.com/awslabs/aws-greengrass-labs-nodered or https://github.com/awslabs/aws-greengrass-labs-nodered-docker and their dependencies https://github.com/awslabs/aws-greengrass-labs-nodered-auth and https://github.com/awslabs/aws-greengrass-labs-secretsmanagerclient 
 
 ## Installation
 
-You can run this tool via `npx` or clone the repo and run locally.
+You can run this tool via `npx` or by cloning the repo locally.
 
 ### npx
 
@@ -23,6 +34,14 @@ To install `npx`:
 
 ```bash
 npm install -g npx
+```
+
+### 
+
+To clone the repo:
+
+```bash
+git clone https://github.com/awslabs/aws-greengrass-labs-node-red-app-cli.git
 ```
 
 ## Usage
@@ -49,14 +68,14 @@ docker run -p 1880:1880 -v $PWD/data:/data nodered/node-red:latest
 
 This will install some additional packages in the `data` folder in the current directory where Node-RED stores the flows and the additional modules you might install.
 
-> **Advanced tip**: that the default Node-RED image is based on Alpine Linux. Most of the nodes work with Alpine but some libraries requiring C bindings might depend on glibc which is not included in Alpine. If you still prefer using containers, you can build your own image based on Ubuntu (for example) [Build your own docker image](https://github.com/node-red/node-red-docker/tree/master/docker-custom)
+> **Advanced tip**: the default Node-RED image is based on Alpine Linux. Most of the nodes work with Alpine but some libraries requiring C bindings might depend on glibc which is not included in Alpine. If you still prefer using containers, you can build your own image based on Ubuntu (for example) [Build your own docker image](https://github.com/node-red/node-red-docker/tree/master/docker-custom)
 
 
-Then open `http://localhost:1880` and develop your flow. Deploy the flow and eventually test it locally.
+Then open `http://localhost:1880` and develop your flow. Deploy the flow using the Node-RED UI and eventually test it locally.
 
 ### Running the tool
 
-Run the tool from the same folder where you run the docker command ($PWD) specifying `./data` as the data folder (this is the default value).
+To run the tool, open a terminal console and type:
 
 ```bash
 npx <repo> --help
@@ -71,72 +90,69 @@ or
 You can provide the listed options as parameters on the command line, or you can leave them empty and you will be prompted to provide the necessary values.
 
 
-*  --reset                    resets the previously cached values
-*  -d, --dataFolder <folder>  the data folder for Node-RED
-*  -n, --name <name>          component name
-*  -a, --author <name>        the name of the author of the component
-*  -v, --version <version>    component version
-*  --prepackageDeps           pre-package dependencies
-*  --softDependencies <deps>  list of soft dependencies
-*  --hardDependencies <deps>  list of hard dependencies
-*  -rt, --runtime <type>      the runtime component to use (choices: "container", "npm")
-*  -rv, --runtimeVersion <v>  the version of the runtime component
-*  -h, --help                 display help for command
-
-## Runtimes
-
-You can use either the Node-RED container runtime (`community.greegrass.nodered.container`) or an npm runtime (`community.greengrass.nodered`).
-The component used must have been published to your account Greengrass repo for the deployment to succeed.
-
-When using the container runtime, you need to explicitly add the component to the deployment and specify the system user `1000` and group `1000` under the component deployment configuration options.
+Options:
+* --reset                          resets the previously cached values
+* -rv, --runtimeVersion <version>  version of Node-RED runtime component to use, x.y.z or AUTO for latest version
+* -d, --dataFolder <folder>        the data folder for Node-RED
+* -n, --name <name>                component name
+* -a, --author <name>              the name of the author of the component
+* -v, --version <version>          component version
+* --prepackageDeps                 pre-package dependencies
+* --no-prepackageDeps              pre-package dependencies
+* --softDependencies <deps>        list of soft dependencies
+* --hardDependencies <deps>        list of hard dependencies
+* -rt, --runtime <type>            type of Node-RED runtime component (choices: "container", "npm")
+* -V, --version                    output the version number
+* -h, --help                       display help for command
 
 
 ## Components
 
 Node-RED flows are saved in the `userDir` specified when running Node-RED. The `userDir` location on the local host must be specified with the `--data` option and can be absolute or relative to the folder where the tool is run.
 
-This data folder contains the flows, the encrypted credentials used by the flow, the Node-RED settings, the runtime configuration and all the additional node_modules that have been installed via the Node-RED palette.
+In case you used the previous docker example the data folder would be located in  `$PWD/data`. In case you are running the command from then $PWD folder, you can omit the `--data` flag altogether since `./data` is used as default.
+
+This data folder contains the flows, the encrypted credentials used by the flow, the Node-RED settings, the runtime configuration and all the additional NodeJS modules that have been installed via the Node-RED palette.
 
 The tool creates two components from this configuration data:
 
-* a flows component
-* a nodes component
+* a flows component: contains the flows configuration 
+* a nodes component: contains the additional NodeJS modules installed by 3rd party nodes used in the flow
 
 The two components are named according to the `--name` provided, appending `.flows` and `.nodes` respectively.
 
-When specifying a version other than `AUTO` The flows component is dependent on the same version of the nodes component and the versions of the two components are maintained in-sync. 
+The components version can be provided explicitly, or you can let the tool to determine the version by specifying the value `AUTO`.  When specifying a version other than `AUTO`, both components will get the same version. 
 
-When using `AUTO`, the nodes components dependency is set to `">0.0.0"`, which is equivalent to get the latest version. The deployment tool (`ggcli`) will calculate the appropriate component version for the two components when uploading them. In this case the component versions might get out of sync. 
-
-AWS IoT Greengrass does not allow to create a new component with an existing version: you need to first delete the existing version in order to create a new one with the same version value. We do not recommend to do this, since it can cause issues when deploying the same component and version but with different content to the device.
+The flows component is dependent on the nodes component and on a runtime component (`container` or `npm`). You can specify a version for the runtime on which to depend on, or specify `AUTO` to select the latest version available. 
 
 ### Flows component
 
 The flows component (postfixed with `.flow`) consists of the `flows.json` and `flows_cred.json`.
 
-The credentials in `flows_cred.json` are encrytped using a randomly generated key (which is stored in `.config.runtime.json`). In order to allow the decoding of the credentials on the target devices, the tool copies the randomly generated key into `settings.js` unless there is a user defined key already specified.
+The credentials in `flows_cred.json` are encrypted using a randomly generated key (which is stored in `.config.runtime.json`). In order to allow the decoding of the credentials on the target devices, the tool copies the randomly generated key into `settings.js` unless there is a user defined key already specified.
 
 ### Nodes component
 
 The nodes component can be built in 2 ways:
 
-1. with only `package.json`
-2. prepackaging the `node_modules` folder from the dev environment
+1. with only a `package.json` file specifying the dependencies
+2. packaging the `node_modules` folder from the dev environment
 
-In option one the component call the Node-RED admin API to add the new packages. The packages must be available through `npmjs.org`.
+When using option 1, the component, once deployed on the device, calls the Node-RED admin API to add the packages specified in the `package.json` file. The packages must be available through `npmjs.org`, and `npmjs.org` site must be reachable by the device. Node-RED takes care of downloading and installing the dependencies.
 
-If you are deploying private packages, or test packages, you can use option 2, which also uses the Node-RED API but install the local copies of the packages. Another use of option 2 is to deploy the additional packages without depending on `npmjs.org`.
-Option 2 minimize the downtime of the device when a deployment is performed, since the download of the packages by Node-RED when using option 1 is run after the previous Node-RED application has been stopped and the downtime will be dependent on the network speed available from the device and the size of the npm modules to be downloaded.
+If you are deploying private packages, test packages, or the device does not have access to `npmjs.org` you should use option 2. It uses the Node-RED API but instead of asking Node-RED to get the packages from `npmjs.org` it passes the path to the local copies of the packages provided by the nodes component. 
+
+Option 2 minimizes the downtime of the device when a deployment is performed, since the installation of the packages by Node-RED is run after the previous Node-RED application has been stopped and the downtime will be dependent on the network speed available from the device and the size of the npm modules to be downloaded.
 
 ## Cloud components
 
-The tool only creates the local artifacts and recipes for the components that are needed to deploy the Node-RED flows to a Greengrass via the selected Greengrass Node-RED runtime component.
+The tool only creates the local artifacts and recipes for the components that are needed to deploy the Node-RED flows to a AWS IoT Greengrass device running one of the AWS IoT Greengrass Node-RED runtime component.
 
-To deploy the component to the devices you need to publish them to the cloud and deploy them to the devices.
+To deploy the component to the devices you need to first publish them to the cloud and then deploy them to the devices.
 
-The recommended way to do this is to use the Greengrass development kit.
+The recommended way to do this is to use the AWS IoT Greengrass development kit.
 
-To create component version and upload artifacts, the Greengrass development kit requires AWS IAM credentials available to the shell process where it is running. These can be provided using environment variables, profiles or EC2 profiles.
+To create component version and upload artifacts, the AWS IoT Greengrass development kit requires AWS IAM credentials available to the shell process where it is running. These can be provided using environment variables, profiles or EC2 profiles.
 
 When running from your laptop we recommend using profiles.
 
@@ -171,36 +187,25 @@ The minimal permission that need to be associated to the credentials are as foll
 
 Replace `bucket_name/prefix` with your own bucket and prefix. This is used by the tool to upload the artifacts.
 
-## Authentication
-
-When running Node-RED locally, it is usual to not have any authentication to access the editor. When deploying to remote devices, this could expose the system to serious security risks. For this reason we recommend that you add a `username` and `passwordHash` configuration to the Node-RED runtime component. 
-
-To do this, you add the selected component to the deployment, and provide a component configuration.
-
-The password hash can be generated via the following script:
-
-<TODO>
-
 ## Deployment
-
 
 ### Run As option
 
-If using the container runtime on the target device, you need to specify the `uid` and `gid` that Greengrass should use to run the container. This is required to ensure that the container own user has access to the host files that get mounted via bind mounts. 
+If using the container runtime on the target device, you need to specify the `uid` and `gid` that AWS IoT Greengrass uses to run the container. This is required to ensure that the container own user has access to the host files that get mounted via bind mounts. 
 
-The default is `1000:1000` which is what the `nodered/node-red` container uses. If you are using your own container and use a different `uid/gid` you should configure this option accordingly.
+The default is `1000:1000` which is what the `nodered/node-red` container uses. If you are using your own container and use a different `uid/gid` you must configure the user and group accordingly.
 
-Ensure that whichever user is specified, it is also part of the `docker` group in order to be able to run the container.
+Ensure that the user is also part of the `docker` group in order to be able to run the container.
 
-If you are running Node-RED from the host, it will run as the default component user specified for Greengrass (`ggc_user:ggc_group`).
+This constraint does not apply to the `aws.greengrass.labs.nodered` component.
 
-If anu nodes require access to host resources, you should ensure that the host resources are accessible to the user running Node-RED by means of permissions. 
+If any Node-RED node requires access to host resources, you must ensure that the host resources are accessible to the user running Node-RED by means of permissions. If you are using the docker version, you must also ensure that the resources are correctly mounted in the container. 
 
 ## Connecting to Node-RED on the device
 
-For security reasons, the Node-RED UX on the device is only accessible from localhost. Even if your device is reachable via a public IP address you will not be able to access the UX.
+For security reasons, the Node-RED console on the device is only accessible from localhost and even if your device is reachable via a public IP address you will not be able to access the Node-RED console.
 
-For testing and development, you can do port forwarding via `ssh`.
+In order to connect to the Node-RED console you can use port forwarding via `ssh`. This requires that the machine you are using to connect from has IP access to the device.
 
 ```bash
 ssh -L 1880:localhost:1881 -i /your/ssh/key user@10.2.3.4
@@ -208,13 +213,15 @@ ssh -L 1880:localhost:1881 -i /your/ssh/key user@10.2.3.4
 
 Then you can access the remote Node-RED from `http://localhost:1881`.
 
-If you need to have access to the UX also in production, you should deploy an http proxy such as Nginx or HAProxy, to expose the local port via the public IP address. You should secure the public access via TLS for which you can leverage the proxy.
+If your local machine does not have IP reachability to the device, you can use SSM Session Manager through the deployment of the [Session Manager agent component](https://docs.aws.amazon.com/greengrass/v2/developerguide/systems-manager-agent-component.html). 
+
+Once the component has been deployed on the device, you can setup port forwarding as explained in the [Port Forwarding Using AWS System Manager Session Manager](https://aws.amazon.com/blogs/aws/new-port-forwarding-using-aws-system-manager-sessions-manager/) blog post.
 
 
 ## Updating the application
 
-To update a running application just define a new flow and re-run the tool. The tool caches the answers given on the first run and does not prompt you for any further information. 
-
+To update a running application just define a new flow, deploy it locally and re-run the tool. The tool caches the answers given on the first run and does not prompt you for any further information. 
+Upload then the components and deploy them.
 
 ## Provide new values
 

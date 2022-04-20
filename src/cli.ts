@@ -114,7 +114,7 @@ export async function cli(args: string[], config?: Options): Promise<Options> {
 
     createCommand
     .option('--reset', 'resets the previously cached values')
-    .option('-rv, --runtimeVersion <version>', 'version of Node-RED to download from npm')
+    .option('-rv, --runtimeVersion <version>', 'version of Node-RED runtime component to use, x.y.z or AUTO for latest version')
     .option('-d, --dataFolder <folder>', 'the data folder for Node-RED')
     .option('-n, --name <name>', 'component name', verifyName)
     .option('-a, --author <name>', 'the name of the author of the component')
@@ -123,7 +123,7 @@ export async function cli(args: string[], config?: Options): Promise<Options> {
     .option('--no-prepackageDeps', 'pre-package dependencies')
     .option('--softDependencies <deps>', 'list of soft dependencies')
     .option('--hardDependencies <deps>', 'list of hard dependencies')
-    createCommand.addOption(new Option('-rt, --runtime <type>', 'how do you want to install Node-RED').choices(installChoices))
+    createCommand.addOption(new Option('-rt, --runtime <type>', 'type of Node-RED runtime component').choices(installChoices))
     const program = createCommand;
     
     createCommand.version('1.0.0');
